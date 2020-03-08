@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- ############################## --> 
+<!--  com.bepne.shg.net PRODUCTION  -->
+<!-- ############################## --> 
+
+<!--
+<Context antiJARLocking="true" antiResourceLocking="true" swallowOutput="true">
+
+	<Parameter name="com.bepne.shg.net.init_from_classpath" value="false" />
+	<Resource name="jdbc/shg" 
+		auth="Container" 
+		type="javax.sql.DataSource"
+		username="" 
+		password="" 
+		driverClassName="org.postgresql.Driver"
+		url="" 
+        maxActive="10"
+        maxIdle="3"
+        minIdle="1"
+        removeAbandoned="true"
+        removeAbandonedTimeout="60"
+        logAbandoned="true"
+        minEvictableIdleTimeMillis="60000"
+        timeBetweenEvictionRunsMillis="10000"
+        numTestsPerEvictionRun="10"
+		maxWait="5000" />
+</Context>
+--> 

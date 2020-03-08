@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">bgAdmin</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shg</property>
+        <property name="hibernate.connection.username">bgAdmin</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">true</property>
+        <property name="current_session_context_class">thread</property>
+         
+<!--    <property name="hibernate.default_schema">public</property>    
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> 
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+        <property name="hbm2ddl.auto">update</property>        
+        <property name="current_session_context_class">thread</property> -->
+        
+		<!--  Map Persistent Classes  -->
+        <mapping class="com.beone.shg.net.persistence.model.AccountType"/> 
+        <mapping class="com.beone.shg.net.persistence.model.ActiveStatus"/> 
+        <mapping class="com.beone.shg.net.persistence.model.ApprovalStatus"/> 
+        <mapping class="com.beone.shg.net.persistence.model.BankAccount"/> 
+        <mapping class="com.beone.shg.net.persistence.model.BankAccountType"/> 
+        <mapping class="com.beone.shg.net.persistence.model.BankProfile"/> 
+        <mapping class="com.beone.shg.net.persistence.model.BTx"/> 
+        <mapping class="com.beone.shg.net.persistence.model.BTxTodo"/> 
+        <mapping class="com.beone.shg.net.persistence.model.Contact"/> 
+        <mapping class="com.beone.shg.net.persistence.model.District"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GAc"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GBankAccount"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GInvtAc"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GLoanAc"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GM"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GProfile"/> 
+        <mapping class="com.beone.shg.net.persistence.model.GroupContact"/> 
+        <mapping class="com.beone.shg.net.persistence.model.Lang"/> 
+        <mapping class="com.beone.shg.net.persistence.model.LanguageMassage"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MAc"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MBankAccount"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MemberContact"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MInvtAc"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MProfile"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MRole"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MTx"/> 
+        <mapping class="com.beone.shg.net.persistence.model.MTxTodo"/> 
+        <mapping class="com.beone.shg.net.persistence.model.NameTitle"/> 
+        <mapping class="com.beone.shg.net.persistence.model.PaymentMode"/> 
+        <mapping class="com.beone.shg.net.persistence.model.RecoveryPeriod"/> 
+        <mapping class="com.beone.shg.net.persistence.model.TxStatus"/> 
+        <mapping class="com.beone.shg.net.persistence.model.TxTodoStatus"/> 
+        <mapping class="com.beone.shg.net.persistence.model.TxType"/> 
+        
+    </session-factory>
+</hibernate-configuration>

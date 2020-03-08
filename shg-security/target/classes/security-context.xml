@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+                                 
+	<!-- Annotation based method security - Comment to use properties file based 
+		role management -->
+
+	<!-- <security:global-method-security proxy-target-class = "true" > </security:global-method-security> -->
+	
+	<security:http create-session="stateless"
+		entry-point-ref="authenticationEntryPoint" authentication-manager-ref="authenticationManager">
+		<security:custom-filter ref="customRestFilter" position="BASIC_AUTH_FILTER" />
+	</security:http>
+
+	<bean id="authenticationEntryPoint" class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint">
+	</bean>
+
+	<bean id="customRestFilter" class="com.beone.shg.common.web.security.CustomRestAuthFilter">
+		<constructor-arg ref="authenticationManager" />
+	</bean>
+
+	<security:authentication-manager alias="authenticationManager">
+		<security:authentication-provider ref="restAuthProvider" />
+	</security:authentication-manager>
+
+	<bean id="restAuthProvider" class="com.beone.shg.common.web.security.RestAuthProvider" />
+
+	<!-- entry for methodsecurity starts here -->
+	<bean id="propHolder" class="com.beone.shg.common.web.security.role.PropertyHolder">
+		<property name="methodProperties" value="file:${catalina.home}/conf/#{servletContext.servletContextName}/methods.properties" />
+	</bean>
+	
+<!-- <bean id="accessDecisionManager" class="org.springframework.security.access.vote.AffirmativeBased">
+		<property name="decisionVoters">
+			<list>
+				<bean class="org.springframework.security.access.vote.RoleVoter" />
+				<bean class="org.springframework.security.access.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean> -->
+	
+	<bean id="shgWSAccessDecisionManager" class="com.beone.shg.common.web.security.ShgWSAccessDecisionManager">
+		<property name="decisionVoters">
+			<list>
+				<bean class="org.springframework.security.access.vote.RoleVoter" />
+				<bean class="org.springframework.security.access.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="methodSecurityInterceptor" class="org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor">
+		<property name="securityMetadataSource" ref="mySecurityMetadataSource" />
+		<property name="authenticationManager" ref="authenticationManager" />
+		<property name="shgWSAccessDecisionManager" ref="shgWSAccessDecisionManager" />
+	</bean>
+	
+	<bean id="mySecurityMetadataSource" class="com.beone.shg.common.web.security.role.MySecurityMetadataSource">
+		<constructor-arg name="propHolder" ref="propHolder" />
+	</bean>
+
+	<bean id="autoProxyCreator" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="interceptorNames">
+			<list>
+				<value>methodSecurityInterceptor</value>
+			</list>
+		</property>
+		<property name="beanNames">
+			<list>
+				<value>securedControllerList</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="securedControllerList" class="com.beone.shg.common.web.security.role.SecuredControllerList">
+		<constructor-arg name="controllerListProvider" ref="controllerListProvider" />
+	</bean>
+	
+	<bean id="controllerListProvider" class="com.beone.shg.common.web.security.role.ControllerListProvider">
+		<property name="controllerProperties" value="file:${catalina.home}/conf/#{servletContext.servletContextName}/securedController.properties" />
+	</bean>
+
+</beans>

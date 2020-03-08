@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- ############################## --> 
+<!--  shg-ws DEV  -->
+<!-- ############################## --> 
+
+<Context antiJARLocking="true" antiResourceLocking="true" swallowOutput="true">
+	<Parameter name="com.beone.shg.net.init_from_classpath" value="true" />    
+</Context>
