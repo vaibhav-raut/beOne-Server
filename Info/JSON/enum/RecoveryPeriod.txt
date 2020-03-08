@@ -1,0 +1,40 @@
+{
+    "enumName": "RecoveryPeriod",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Daily",
+            "description": "Recovery done every Day"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Weekly",
+            "description": "Recovery done every Week"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Monthly",
+            "description": "Recovery done every Month"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Bi-Monthly",
+            "description": "Recovery done every 2 Months"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Quarterly",
+            "description": "Recovery done every Quarter Year or in 3 Month"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Half Yearly",
+            "description": "Recovery done every Half Year or in 6 Month"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Yearly",
+            "description": "Recovery done every Year"
+        }
+    ]
+}

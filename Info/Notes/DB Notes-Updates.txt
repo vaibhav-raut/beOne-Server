@@ -1,0 +1,150 @@
+add - stock_item
+	design_no
+	check_ts
+	check_flag
+	
+add - catalog_item
+	catalog_item_id
+	stock_type_id
+	name
+	properties
+	pics
+	link
+	mr_price_am
+	mrp_price_am
+	
+add - mr_visit
+	mr_visit_id
+	mr_ac_no
+	se_ac_no
+	start_ts
+	end_ts
+	type
+	opening_outstanding_am
+	paid_am
+	closing_outstanding_am
+	opening_stock_am
+	return_stock_am
+	sale_stock_am
+	given_stock_am
+	closing_stock_am
+	opening_stock_no
+	return_stock_no
+	sale_stock_no
+	given_stock_no
+	closing_stock_no
+	location
+	description
+	
+add - stock_tx
+	mr_visit_id
+	
+add - p_m_ac
+	registration_paid_am
+	registration_pending_am
+	deposit_paid_am
+	deposit_pending_am
+	deposit_return_am
+	credit_limit_am
+	sold_paid_am
+	sold_pending_am
+	
+	total_visit_counter
+	
+	this_month_stock_am
+	this_month_stock_returned_am
+	this_month_stock_damaged_am
+	this_month_stock_sold_am
+	this_month_stock_no
+	this_month_stock_returned_no
+	this_month_stock_damaged_no
+	this_month_stock_sold_no	
+	this_month_visit_counter
+	
+	last_month_stock_am
+	last_month_stock_returned_am
+	last_month_stock_damaged_am
+	last_month_stock_sold_am
+	last_month_stock_no
+	last_month_stock_returned_no
+	last_month_stock_damaged_no
+	last_month_stock_sold_no
+	last_month_visit_counter
+
+lot
+stock_type
+brand	
+	
+**************************************************************
+add - stockItem
+	designNo
+	checkTs
+	checkFlag
+	
+add - catalogItem
+	catalogItemId
+	stockTypeId
+	name
+	properties
+	pics
+	link
+	mrPriceAm
+	mrpPriceAm
+	
+add - mrVisit
+	mrVisitId
+	mrAcNo
+	seAcNo
+	startTs
+	endTs
+	type
+	openingOutstandingAm
+	paidAm
+	closingOutstandingAm
+	openingStockAm
+	returnStockAm
+	saleStockAm
+	givenStockAm
+	closingStockAm
+	openingStockNo
+	returnStockNo
+	saleStockNo
+	givenStockNo
+	closingStockNo
+	location
+	description
+	
+add - stockTx
+	mrVisitId
+	
+add - p_m_ac
+	registrationPaidAm
+	registrationPendingAm
+	depositPaidAm
+	depositPendingAm
+	depositReturnAm
+	creditLimitAm
+	soldPaidAm
+	soldPendingAm
+	
+	totalVisitCounter
+	
+	thisMonthStockAm
+	thisMonthStockReturnedAm
+	thisMonthStockDamagedAm
+	thisMonthStockSoldAm
+	thisMonthStockNo
+	thisMonthStockReturnedNo
+	thisMonthStockDamagedNo
+	thisMonthStockSoldNo
+	thisMonthVisitCounter
+	
+	lastMonthStockAm
+	lastMonthStockReturnedAm
+	lastMonthStockDamagedAm
+	lastMonthStockSoldAm
+	lastMonthStockNo
+	lastMonthStockReturnedNo
+	lastMonthStockDamagedNo
+	lastMonthStockSoldNo
+	lastMonthVisitCounter

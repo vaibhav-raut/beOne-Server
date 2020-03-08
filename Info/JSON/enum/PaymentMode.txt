@@ -1,0 +1,50 @@
+{
+    "enumName": "PaymentMode",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "CASH",
+            "description": "Payment Done in Cash!"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "CHEQUE",
+            "description": "Bank"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "DEBIT CARD",
+            "description": "Bank"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "CREDIT CARD",
+            "description": "Bank"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "DEMAND DRAFT",
+            "description": "Bank"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "NET BANKING",
+            "description": "Bank"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "AUTO DEBIT",
+            "description": "Bank"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "OUTSTANDING",
+            "description": "Internal"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "INTERNAL",
+            "description": "Internal"
+        }
+    ]
+}

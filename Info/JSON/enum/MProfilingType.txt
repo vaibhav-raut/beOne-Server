@@ -1,0 +1,1126 @@
+{
+    "enumName": "MProfilingType",
+    "enumValues": [
+        {
+            "pointId": 1,
+            "point": "Cast Category",
+            "profileFor": "Member",
+            "category": "Community",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "SC",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "ST",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "OBC",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "SBC",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "NT A",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "NT B",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "NT C",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "NT D",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "General",
+                    "category": ""
+                }
+            ]			
+        },
+        {
+            "pointId": 2,
+            "point": "Cast",
+            "profileFor": "Member",
+            "category": "Community",
+            "valueType": "string",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 3,
+            "point": "Economical Category",
+            "profileFor": "Member",
+            "category": "Economy",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "BPL (Below Poverty Line)",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "AAY(Antyodaya Anna Yojana)",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "APL (Above Poverty Line)",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 4,
+            "point": "Annual Family Income",
+            "profileFor": "Member",
+            "category": "Economy",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId":1,
+                    "option": "10000",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "20000",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "50000",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "100000",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "200000",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "500000",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "1000000",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "2000000",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "5000000",
+                    "category": ""
+                },
+                {
+                    "optionId": 10,
+                    "option": "10000000",
+                    "category": ""
+                },
+                {
+                    "optionId": 11,
+                    "option": "Above",
+                    "category": ""
+                } 
+			]
+        },
+        {
+            "pointId": 5,
+            "point": "Education Level",
+            "profileFor": "Member",
+            "category": "Education",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "No School",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Primary",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Secondary",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Higher Secondary",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "10th",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "12th",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Diploma",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "Graduate",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "Post Graduate",
+                    "category": ""
+                },
+                {
+                    "optionId": 10,
+                    "option": "PHD",
+                    "category": ""
+                },
+                {
+                    "optionId": 11,
+                    "option": "Professional",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 6,
+            "point": "Education",
+            "profileFor": "Member",
+            "category": "Education",
+            "valueType": "multi_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 7,
+            "point": "Can Speak",
+            "profileFor": "Member",
+            "category": "Education",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Hindi",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "English",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Assamese",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Bengali",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Bodo",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Dogri",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Gujarati",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "Kannada",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "Kashmiri",
+                    "category": ""
+                },
+                {
+                    "optionId": 10,
+                    "option": "Konkani",
+                    "category": ""
+                },
+                {
+                    "optionId": 11,
+                    "option": "Maithili",
+                    "category": ""
+                },
+                {
+                    "optionId": 12,
+                    "option": "Malayalam",
+                    "category": ""
+                },
+                {
+                    "optionId": 13,
+                    "option": "Manipuri",
+                    "category": ""
+                },
+                {
+                    "optionId": 14,
+                    "option": "Marathi",
+                    "category": ""
+                },
+                {
+                    "optionId": 15,
+                    "option": "Nepali",
+                    "category": ""
+                },
+                {
+                    "optionId": 16,
+                    "option": "Oriya",
+                    "category": ""
+                },
+                {
+                    "optionId": 17,
+                    "option": "Punjabi",
+                    "category": ""
+                },
+                {
+                    "optionId": 18,
+                    "option": "Sanskrit",
+                    "category": ""
+                },
+                {
+                    "optionId": 19,
+                    "option": "Santali",
+                    "category": ""
+                },
+                {
+                    "optionId": 20,
+                    "option": "Sindhi",
+                    "category": ""
+                },
+                {
+                    "optionId": 21,
+                    "option": "Tamil",
+                    "category": ""
+                },
+                {
+                    "optionId": 22,
+                    "option": "Telugu",
+                    "category": ""
+                },
+                {
+                    "optionId": 23,
+                    "option": "Urdu",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 8,
+            "point": "Can Read",
+            "profileFor": "Member",
+            "category": "Education",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Hindi",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "English",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Assamese",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Bengali",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Bodo",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Dogri",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Gujarati",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "Kannada",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "Kashmiri",
+                    "category": ""
+                },
+                {
+                    "optionId": 10,
+                    "option": "Konkani",
+                    "category": ""
+                },
+                {
+                    "optionId": 11,
+                    "option": "Maithili",
+                    "category": ""
+                },
+                {
+                    "optionId": 12,
+                    "option": "Malayalam",
+                    "category": ""
+                },
+                {
+                    "optionId": 13,
+                    "option": "Manipuri",
+                    "category": ""
+                },
+                {
+                    "optionId": 14,
+                    "option": "Marathi",
+                    "category": ""
+                },
+                {
+                    "optionId": 15,
+                    "option": "Nepali",
+                    "category": ""
+                },
+                {
+                    "optionId": 16,
+                    "option": "Oriya",
+                    "category": ""
+                },
+                {
+                    "optionId": 17,
+                    "option": "Punjabi",
+                    "category": ""
+                },
+                {
+                    "optionId": 18,
+                    "option": "Sanskrit",
+                    "category": ""
+                },
+                {
+                    "optionId": 19,
+                    "option": "Santali",
+                    "category": ""
+                },
+                {
+                    "optionId": 20,
+                    "option": "Sindhi",
+                    "category": ""
+                },
+                {
+                    "optionId": 21,
+                    "option": "Tamil",
+                    "category": ""
+                },
+                {
+                    "optionId": 22,
+                    "option": "Telugu",
+                    "category": ""
+                },
+                {
+                    "optionId": 23,
+                    "option": "Urdu",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 9,
+            "point": "Can Write",
+            "profileFor": "Member",
+            "category": "Education",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Hindi",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "English",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Assamese",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Bengali",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Bodo",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Dogri",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Gujarati",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "Kannada",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "Kashmiri",
+                    "category": ""
+                },
+                {
+                    "optionId": 10,
+                    "option": "Konkani",
+                    "category": ""
+                },
+                {
+                    "optionId": 11,
+                    "option": "Maithili",
+                    "category": ""
+                },
+                {
+                    "optionId": 12,
+                    "option": "Malayalam",
+                    "category": ""
+                },
+                {
+                    "optionId": 13,
+                    "option": "Manipuri",
+                    "category": ""
+                },
+                {
+                    "optionId": 14,
+                    "option": "Marathi",
+                    "category": ""
+                },
+                {
+                    "optionId": 15,
+                    "option": "Nepali",
+                    "category": ""
+                },
+                {
+                    "optionId": 16,
+                    "option": "Oriya",
+                    "category": ""
+                },
+                {
+                    "optionId": 17,
+                    "option": "Punjabi",
+                    "category": ""
+                },
+                {
+                    "optionId": 18,
+                    "option": "Sanskrit",
+                    "category": ""
+                },
+                {
+                    "optionId": 19,
+                    "option": "Santali",
+                    "category": ""
+                },
+                {
+                    "optionId": 20,
+                    "option": "Sindhi",
+                    "category": ""
+                },
+                {
+                    "optionId": 21,
+                    "option": "Tamil",
+                    "category": ""
+                },
+                {
+                    "optionId": 22,
+                    "option": "Telugu",
+                    "category": ""
+                },
+                {
+                    "optionId": 23,
+                    "option": "Urdu",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 10,
+            "point": "Primary Occupation",
+            "profileFor": "Member",
+            "category": "Work",
+            "valueType": "multi_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 11,
+            "point": "Secondary Occupation",
+            "profileFor": "Member",
+            "category": "Work",
+            "valueType": "multi_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 12,
+            "point": "Employment Type",
+            "profileFor": "Member",
+            "category": "Work",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Farmer",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Animal Farming",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Cottage Industry",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "SHG Owned Business",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Street Vendor",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Wage labor In Farming",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Wage labor In Construction",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "Wage labor In Unorganized Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "Wage labor In Retail Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 10,
+                    "option": "Wage labor In Organized Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 11,
+                    "option": "Service In Construction",
+                    "category": ""
+                },
+                {
+                    "optionId": 12,
+                    "option": "Service In Unorganized Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 13,
+                    "option": "Service In Retail Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 14,
+                    "option": "Service In Organized Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 15,
+                    "option": "Self Employed In Unorganized Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 16,
+                    "option": "Self Employed In Retail Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 17,
+                    "option": "Self Employed In Organized Sector",
+                    "category": ""
+                },
+                {
+                    "optionId": 18,
+                    "option": "Micro Business Owner",
+                    "category": ""
+                },
+                {
+                    "optionId": 19,
+                    "option": "Small Scale Business Owner",
+                    "category": ""
+                },
+                {
+                    "optionId": 20,
+                    "option": "Medium Scale Business Owner",
+                    "category": ""
+                },
+                {
+                    "optionId": 21,
+                    "option": "Large Scale Business Owner",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 13,
+            "point": "Skill Sets",
+            "profileFor": "Member",
+            "category": "Education",
+            "valueType": "multi_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 14,
+            "point": "Land Owned",
+            "profileFor": "Member",
+            "category": "Economy",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 15,
+            "point": "Land Type",
+            "profileFor": "Member",
+            "category": "Economy",
+            "valueType": "single_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 16,
+            "point": "Area Type",
+            "profileFor": "Member",
+            "category": "Economy",
+            "valueType": "single_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 17,
+            "point": "Marital Status",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Single",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Engaged",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Married",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Separated",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Divorced",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Widowed",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Remarried",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 18,
+            "point": "Spouse Relation",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "single_option",
+            "options": [
+                {
+                    "optionId":1,
+                    "option": "Oppressive",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Non Supportive",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Neutral",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Understanding",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Supportive",
+                    "category": ""
+                } 
+            ]
+        },
+        {
+            "pointId": 19,
+            "point": "No of Girl Child",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 20,
+            "point": "No of Boy Child",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 21,
+            "point": "No of Special Child",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 22,
+            "point": "No of Malnutrition Child",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 23,
+            "point": "No of Child Loss",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 24,
+            "point": "SHG Accounting",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "single_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 25,
+            "point": "SHG Development",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "single_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 26,
+            "point": "SHG Trainings Received",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "multi_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 27,
+            "point": "SHG Trainings Used",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "multi_option",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 28,
+            "point": "Total No of Years with SHG",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 29,
+            "point": "Total No of SHGs",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 30,
+            "point": "No of Years with Current SHG",
+            "profileFor": "Member",
+            "category": "SHG",
+            "valueType": "int",
+            "options": [
+            ]
+        },
+        {
+            "pointId": 31,
+            "point": "Having IDs",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Adhaar Card",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Ration Card",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Voter ID Card",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Pan Card",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Driving License",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Passport",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "BPL Card",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "AAY Card",
+                    "category": ""
+                },
+                {
+                    "optionId": 9,
+                    "option": "Senior Citizen Card",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 32,
+            "point": "Family Health",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "BP",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Diabetics",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Heart Problem",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Blood Cancer",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Breast Cancer",
+                    "category": ""
+                },
+                {
+                    "optionId": 6,
+                    "option": "Mouth Cancer",
+                    "category": ""
+                },
+                {
+                    "optionId": 7,
+                    "option": "Respiratory Disorder",
+                    "category": ""
+                },
+                {
+                    "optionId": 8,
+                    "option": "AIDS",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 33,
+            "point": "Addictions",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Tobacco",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Gutka",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Smoking",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Alcohol",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Drugs",
+                    "category": ""
+                }
+            ]
+        },
+        {
+            "pointId": 34,
+            "point": "Spouse Addictions",
+            "profileFor": "Member",
+            "category": "Wellbeing",
+            "valueType": "multi_option",
+            "options": [
+                {
+                    "optionId": 1,
+                    "option": "Tobacco",
+                    "category": ""
+                },
+                {
+                    "optionId": 2,
+                    "option": "Gutka",
+                    "category": ""
+                },
+                {
+                    "optionId": 3,
+                    "option": "Smoking",
+                    "category": ""
+                },
+                {
+                    "optionId": 4,
+                    "option": "Alcohol",
+                    "category": ""
+                },
+                {
+                    "optionId": 5,
+                    "option": "Drugs",
+                    "category": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+district_id,state,division,district,lang_id,district_code,group_counter
+1,Maharashtra,Nashik,Ahmednagar,1,MH16,0
+2,Maharashtra,Amravati,Akola,1,MH30,0
+3,Maharashtra,Amravati,Amravati,1,MH27,0
+4,Maharashtra,Aurangabad,Aurangabad,1,MH20,0
+5,Maharashtra,Aurangabad,Beed,1,MH23,0
+6,Maharashtra,Nagpur,Bhandara,1,MH36,0
+7,Maharashtra,Amravati,Buldhana,1,MH28,0
+8,Maharashtra,Nagpur,Chandrapur,1,MH34,0
+9,Maharashtra,Nashik,Dhule,1,MH18,0
+10,Maharashtra,Nagpur,Gadchiroli,1,MH33,0
+11,Maharashtra,Nagpur,Gondia,1,MH35,0
+12,Maharashtra,Aurangabad,Hingoli,1,MH38,0
+13,Maharashtra,Nashik,Jalgaon,1,MH19,0
+14,Maharashtra,Aurangabad,Jalna,1,MH21,0
+15,Maharashtra,Pune,Kolhapur,1,MH09,0
+16,Maharashtra,Aurangabad,Latur,1,MH24,0
+17,Maharashtra,Konkan,Mumbai City,1,MH01,0
+18,Maharashtra,Konkan,Mumbai Suburban,1,MH05,0
+19,Maharashtra,Nagpur,Nagpur,1,MH31,0
+20,Maharashtra,Aurangabad,Nanded,1,MH26,0
+21,Maharashtra,Nashik,Nandurbar,1,MH39,0
+22,Maharashtra,Nashik,Nashik,1,MH15,0
+23,Maharashtra,Aurangabad,Osmanabad,1,MH25,0
+24,Maharashtra,Aurangabad,Parbhani,1,MH22,0
+25,Maharashtra,Pune,Pune,1,MH12,0
+26,Maharashtra,Konkan,Raigad,1,MH06,0
+27,Maharashtra,Konkan,Ratnagiri,1,MH08,0
+28,Maharashtra,Pune,Sangli,1,MH10,0
+29,Maharashtra,Pune,Satara,1,MH11,0
+30,Maharashtra,Konkan,Sindhudurg,1,MH07,0
+31,Maharashtra,Pune,Solapur,1,MH13,0
+32,Maharashtra,Konkan,Thane,1,MH04,0
+33,Maharashtra,Nagpur,Wardha,1,MH32,0
+34,Maharashtra,Amravati,Washim,1,MH37,0
+35,Maharashtra,Amravati,Yavatmal,1,MH29,0

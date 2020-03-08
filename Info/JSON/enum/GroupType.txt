@@ -1,0 +1,77 @@
+{
+    "enumName": "GroupType",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "SHG",
+            "category": "SHG",
+            "defaultWsAccessRights": 0,
+            "defaultUiAccessRights": 0,
+            "description": "Self Help Group"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Federation",
+            "category": "Federation",
+            "defaultWsAccessRights": 849510040337985,
+            "defaultUiAccessRights": 388814799371841,
+            "description": "Federation, Group of Multiple Self Help Group"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "NGO",
+            "category": "NGO",
+            "defaultWsAccessRights": 849510040337985,
+            "defaultUiAccessRights": 388814799371841,
+            "description": "NGO which helps monitor multiple SHG"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Bank",
+            "category": "Bank",
+            "defaultWsAccessRights": 5076651343937,
+            "defaultUiAccessRights": 78634811457,
+            "description": "Bank which monitor multiple SHG having accounts"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "GOV",
+            "category": "GOV",
+            "defaultWsAccessRights": 5076651343937,
+            "defaultUiAccessRights": 78634811457,
+            "description": "Goverment Entity which monitor multiple SHG having accounts"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "SHG-One Agent",
+            "category": "Agent",
+            "defaultWsAccessRights": 0,
+            "defaultUiAccessRights": 0,
+            "description": "SHG-One Agent Group"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Area Admin",
+            "category": "Admin",
+            "defaultWsAccessRights": 0,
+            "defaultUiAccessRights": 0,
+            "description": "SHG-One Area Admin Group"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Super Area Admin",
+            "category": "Admin",
+            "defaultWsAccessRights": 0,
+            "defaultUiAccessRights": 0,
+            "description": "SHG-One Super Area Admin Group"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "SHG-One Admin",
+            "category": "Admin",
+            "defaultWsAccessRights": 0,
+            "defaultUiAccessRights": 0,
+            "description": "SHG-One Admin Group"
+        }
+    ]
+}

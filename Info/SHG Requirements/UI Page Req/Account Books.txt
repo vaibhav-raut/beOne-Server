@@ -1,0 +1,63 @@
+Account Book:
+API - /report/v1/ac_book/{lang}/{groupAcNo}/{type}/{bankAcNo}/{startTime}/{endMonth}
+
+1 - From (date picker)
+2 - Till (dropdown - provided in List<String> - GroupREST.monthsAvaliable) (This would show - "As On Date"/"Dec - 2014"/"Nov - 2014"...)
+(GroupREST.monthsAvaliable would be returned in /group/v1/group_ac/{lang}/{groupAcNo} - this call will now also return all profile info; Thus this should be prefered call for all Group profile & accounts info)
+
+3 - Radio with Options "Cash" or "Bank" or "Joint" 
+
+If "Bank" is selected at 3
+4 - Show BankAccounts - in dropdown (Adding "All" option to top and default)
+
+5 - Book Table   
+	Column - mapping
+	Date - AcRecord.date
+	Recipt / Voucher No - AcRecord.slipNo
+	Transaction No - AcRecord.txNo
+	Particulars - AcRecord.particular
+	Amount - AcRecord.amount
+	Status - AcRecord.txStatus (Show Submitted status - as active button to launch Approval Dialog; other states could be shown as normal text)
+	Received Amount - AcRecord.receivedAm
+	Paid Amount - AcRecord.paidAm
+	Balance - AcRecord.balance
+
+Don't need to apply any conditional logic for below - All record are String and would be populated or have enpty string as per requirement.
+If tree view is simple then fine, else let do normal table stricture
+
+------------------------------------------------------Sample Ac Book ----------------------------------------------------------
+Date		Recipt / 		Transaction 	Particulars				Amount		Status		Received		Paid		Balance
+			Voucher No		No																Amount			Amount
+-------------------------------------------------------------------------------------------------------------------------------
+2-12-2014									Opening Balance																10000
+-------------------------------------------------------------------------------------------------------------------------------
+2-12-2014									Saving Installment								2000						12000
+-------------------------------------------------------------------------------------------------------------------------------
+			100				201				Mr A Sharma				1000		Submitted
+-------------------------------------------------------------------------------------------------------------------------------
+			101				202				Mr B Sharma				1000		Approved
+-------------------------------------------------------------------------------------------------------------------------------
+2-12-2014									Loan Installment								5000						17000
+-------------------------------------------------------------------------------------------------------------------------------
+			102				203				Mr C Sharma				2000		Approved
+-------------------------------------------------------------------------------------------------------------------------------
+			103				204				Mr D Sharma				3000		Submitted
+-------------------------------------------------------------------------------------------------------------------------------
+2-12-2014									Loan Disbursement												10000		7000
+-------------------------------------------------------------------------------------------------------------------------------
+			104				205				Mr E Sharma				10000		Submitted
+-------------------------------------------------------------------------------------------------------------------------------
+2-12-2014									Closing Balance																7000
+-------------------------------------------------------------------------------------------------------------------------------
+							(Lets show One Row of Gap between 2 Days; Can we give this row some color?)
+-------------------------------------------------------------------------------------------------------------------------------
+3-12-2014									Opening Balance																7000
+-------------------------------------------------------------------------------------------------------------------------------
+3-12-2014									Saving Installment								2000						9000
+-------------------------------------------------------------------------------------------------------------------------------
+			100				201				Mr C Sharma				1000		Submitted
+-------------------------------------------------------------------------------------------------------------------------------
+			101				202				Mr G Sharma				1000		Approved
+-------------------------------------------------------------------------------------------------------------------------------
+3-12-2014									Closing Balance																9000
+-------------------------------------------------------------------------------------------------------------------------------

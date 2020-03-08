@@ -1,0 +1,25 @@
+Member Account Book:
+API - /report/v1/member_ac_book/{lang}/{memberAcNo}/{startMonth}/{endMonth}
+
+1 - Search Member By Name
+2 - From (dropdown - provided in List<String> - GroupREST.monthsAvaliable - In reverse Order) (This would show - "Nov - 2014"/"Dec - 2014"/"As On Date")
+(GroupREST.monthsAvaliable would be returned in /group/v1/group_ac/{lang}/{groupAcNo} - this call will now also return all profile info; Thus this should be prefered call for all Group profile & accounts info)
+
+3 - Till (dropdown - provided in List<String> - GroupREST.monthsAvaliable) (This would show - "As On Date"/"Dec - 2014"/"Nov - 2014"...)
+(GroupREST.monthsAvaliable would be returned in /group/v1/group_ac/{lang}/{groupAcNo} - this call will now also return all profile info; Thus this should be prefered call for all Group profile & accounts info)
+
+4  - Show Columns (use displayNames)
+month
+plannedMonthlySavingAm
+savedAm
+provIntEnAm
+prevMonthIntEnAm
+loanAm
+outstandingLoanAm
+recIntOnLoanAm
+returnedSavedAm
+returnedIntEnAm
+dividedProfitPaidAm
+dividedProfitDeclaredAm
+recPenaltyAm
+pendingPenaltyAm

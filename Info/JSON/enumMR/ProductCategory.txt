@@ -1,0 +1,453 @@
+{
+    "enumName": "ProductCategory",
+    "enumValues": [
+        {
+            "productCategoryId": 1,
+            "productCategory": "DM Pure Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 2,
+            "productCategory": "DM Pure Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 3,
+            "productCategory": "DM Pure Cotton 2 Top",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "2 Top"
+        },
+        {
+            "productCategoryId": 4,
+            "productCategory": "DM Mix Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 5,
+            "productCategory": "DM Mix Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 6,
+            "productCategory": "DM Mix Cotton 2 Top",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "2 Top"
+        },
+        {
+            "productCategoryId": 7,
+            "productCategory": "DM Synthetic Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 8,
+            "productCategory": "DM Synthetic Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 9,
+            "productCategory": "DM Synthetic 2 Top",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "2 Top"
+        },
+        {
+            "productCategoryId": 10,
+            "productCategory": "DM Pure Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 11,
+            "productCategory": "DM Pure Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 12,
+            "productCategory": "DM Mix Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 13,
+            "productCategory": "DM Mix Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dress Material",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 14,
+            "productCategory": "S Pure Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 15,
+            "productCategory": "S Pure Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 16,
+            "productCategory": "S Pure Cotton Jari",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Jari"
+        },
+        {
+            "productCategoryId": 17,
+            "productCategory": "S Mix Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 18,
+            "productCategory": "S Mix Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 19,
+            "productCategory": "S Mix Cotton Jari",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Jari"
+        },
+        {
+            "productCategoryId": 20,
+            "productCategory": "S Synthetic Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 21,
+            "productCategory": "S Synthetic Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 22,
+            "productCategory": "S Synthetic Jari",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Jari"
+        },
+        {
+            "productCategoryId": 23,
+            "productCategory": "S Chiffon Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Chiffon",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 24,
+            "productCategory": "S Chiffon Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Chiffon",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 25,
+            "productCategory": "S Italian Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Italian Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 26,
+            "productCategory": "S Italian Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Italian Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 27,
+            "productCategory": "S Pure Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 28,
+            "productCategory": "S Pure Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 29,
+            "productCategory": "S Pure Silk Jari",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Jari"
+        },
+        {
+            "productCategoryId": 30,
+            "productCategory": "S Mix Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 31,
+            "productCategory": "S Mix Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 32,
+            "productCategory": "S Mix Silk Jari",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Saree",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Jari"
+        },
+        {
+            "productCategoryId": 33,
+            "productCategory": "Top Pure Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 34,
+            "productCategory": "Top Pure Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 35,
+            "productCategory": "Top Mix Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 36,
+            "productCategory": "Top Mix Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 37,
+            "productCategory": "Top Synthetic Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 38,
+            "productCategory": "Top Synthetic Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 39,
+            "productCategory": "Top Pure Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 40,
+            "productCategory": "Top Pure Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Pure Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 41,
+            "productCategory": "Top Mix Silk Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 42,
+            "productCategory": "Top Mix Silk Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Top",
+            "subCategoryLevel3": "Mix Silk",
+            "subCategoryLevel4": "Work"
+        },
+        {
+            "productCategoryId": 43,
+            "productCategory": "L Pure Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Legging",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 44,
+            "productCategory": "L Pure Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Legging",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Plain"
+        },
+        {
+            "productCategoryId": 45,
+            "productCategory": "L Mix Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Legging",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 46,
+            "productCategory": "L Mix Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Legging",
+            "subCategoryLevel3": "Mix Cotton",
+            "subCategoryLevel4": "Plain"
+        },
+        {
+            "productCategoryId": 47,
+            "productCategory": "L Synthetic Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Legging",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 48,
+            "productCategory": "L Synthetic Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Legging",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Plain"
+        },
+        {
+            "productCategoryId": 49,
+            "productCategory": "Du Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dupatta",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 50,
+            "productCategory": "Du Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dupatta",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Plain"
+        },
+        {
+            "productCategoryId": 51,
+            "productCategory": "Du Synthetic Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dupatta",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 52,
+            "productCategory": "Du Synthetic Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Dupatta",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Plain"
+        },
+        {
+            "productCategoryId": 53,
+            "productCategory": "Pat Cotton Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Patiala",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 54,
+            "productCategory": "Pat Cotton Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Patiala",
+            "subCategoryLevel3": "Pure Cotton",
+            "subCategoryLevel4": "Plain"
+        },
+        {
+            "productCategoryId": 55,
+            "productCategory": "Pat Synthetic Printed",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Patiala",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Printed"
+        },
+        {
+            "productCategoryId": 56,
+            "productCategory": "Pat Synthetic Work",
+            "subCategoryLevel1": "Garments",
+            "subCategoryLevel2": "Patiala",
+            "subCategoryLevel3": "Synthetic",
+            "subCategoryLevel4": "Plain"
+        }
+    ]
+}

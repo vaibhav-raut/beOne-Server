@@ -1,0 +1,193 @@
+https://www.youtube.com/watch?v=YhywK1IayWE
+
+Save as PDF calls needed:
+1. All Members -> Tools -> Save Member Info
+	Columns:
+	Member Account Number
+	Member Name
+	Active Status
+	Membership Role
+	Date Of Joining
+
+2. All Members -> Tools -> Save Member Account Overview
+	Columns:
+	Member Account Number
+	Member Name
+	Active Status
+	Credit Rating
+	Saved Amount
+	Provisional Interest Earned
+	Returned Saved Amount
+	Returned Interest Earned
+	Divided / Profit Share Declared
+	Divided / Profit Share Paid
+	Loan Amount
+	Recovered Loan Amount
+	Recovered Interest On Loan
+	Paid Penalty Fee
+	Outstanding Penalty Fee
+	
+3. All Members -> Tools -> Save Member Saving Details
+	Columns:
+	Member Account Number
+	Member Name
+	Active Status
+	Credit Rating
+	Planned Monthly Saving
+	Saved Amount
+	Outstanding Saving
+	Provisional Interest Earned
+	Previous Month's Interest Earned
+	Returned Saved Amount
+	Returned Interest Earned
+	Divided / Profit Share Declared
+	Divided / Profit Share Paid
+
+4. All Members -> Tools -> Save Member Loan Details
+	Columns:
+	Member Account Number
+	Member Name
+	Active Status
+	Credit Rating
+	Loan Amount
+	Recovered Loan Amount
+	Recovered Interest On Loan
+	Projected Interest On Loan
+	Number of Loans
+	Number of Active Loans
+
+Messaging to Implement:
+- Member Balance Check
+- Member Loan Details Check
+- Loan Disburstment + Bank loan + Investment + Member Registration - Joint Processing message
+- Loan application + Approval + Disburstment
+- 
+
+
+SHG1 TX SI 3 100 123 L20
+SHG1 TX LI 3 1000 100 123 L20
+SHG1 TX LF 3 100 123 L20 
+SHG1 TX BD 1 1000
+SHG1 TX BW 1 1000
+
+/message/v1/process_message/9503131871/SHG1  TX		SI , 3 100
+SHG1 TX SI 9 100 1111
+
+SHG1 TX LI 1 1000 130 123
+
+Not Able to Process You Request! Invalid SMS Request Format! Please try with correction or contact SHG-One Representative!
+Not Able to Process You Request! Can't find Group Saving Bank Account! Please contact SHG-One Representative!
+
+
+Transaction:
+Type
+Member No
+Amount
+Slip No.
+
+Payment Mode
+Payment Date
+
+
+type=txt
+
+http://smshorizon.co.in/api/sendsms.php?user=beone.tech&apikey=rQaoDpiPLkRNV9ECR0Vn&message=hello+sms+testing&mobile=9422386652&senderid=WEBSMS&type=txt
+www.YourDomain.com/page.php?from=919900099000&message=DEMO
+http://shg-one.net/shg-ws/message/v1/sms_pass/process_message?from=9503131871&message=SHG1+TX+SI+3+100+123
+
+http://localhost/shg-ws/message/v1/sms_pass/process_message?from=9503131871&message=SHG1%20TX%20SI%203%20100%20123
+http://shg-one.net/shg-ws/message/v1/sms_pass/process_message
+
+1000000000
+9999999999
+http://api.mVaayoo.com/mvaayooapi/MessageCompose?user=Username:password&senderID=mVaayoo&receipientno=mobilenumber&msgtxt=TestMessage&state=4 
+
+
+point_id
+point
+category
+value_type 		(bool, int, string, single_option, multi_option)
+options
+
+Cast Category	(1:SC;2:ST;3:OBC;4:SBC;5:NT A;6:NT B;7:NT C;8:NT D;9:General;)
+Cast
+Economical Category		(1:BPL (Below Poverty Line);2:AAY(Antyodaya Anna Yojana);3:APL (Above Poverty Line);)
+Anual Family Income		(1:10000;2:20000;3:50000;4:100000;5:200000;6:500000;7:1000000;8:2000000;9:5000000;10:10000000;11:Above;)
+
+Education Level			(1:No School;2:Primary;3:Secondary;4:High;5:12th;6:Deploma;7:Gradvate;8:Post Gradget;9:PHD;10:Professional;)
+Education
+Can Speak		(1:Hindi;2:English;3:Assamese;4:Bengali;5:Bodo;6:Dogri;7:Gujarati;8:Kannada;9:Kashmiri;10:Konkani;11:Maithili;12:Malayalam;13:Manipuri;14:Marathi;15:Nepali;16:Oriya;17:Punjabi;18:Sanskrit;19:Santali;20:Sindhi;21:Tamil;22:Telugu;23:Urdu;)
+Can Read		(1:Hindi;2:English;3:Assamese;4:Bengali;5:Bodo;6:Dogri;7:Gujarati;8:Kannada;9:Kashmiri;10:Konkani;11:Maithili;12:Malayalam;13:Manipuri;14:Marathi;15:Nepali;16:Oriya;17:Punjabi;18:Sanskrit;19:Santali;20:Sindhi;21:Tamil;22:Telugu;23:Urdu;)
+Can Write		(1:Hindi;2:English;3:Assamese;4:Bengali;5:Bodo;6:Dogri;7:Gujarati;8:Kannada;9:Kashmiri;10:Konkani;11:Maithili;12:Malayalam;13:Manipuri;14:Marathi;15:Nepali;16:Oriya;17:Punjabi;18:Sanskrit;19:Santali;20:Sindhi;21:Tamil;22:Telugu;23:Urdu;)
+
+Occupation
+Employment Type 
+Skills
+Land Owned
+House Owner
+Land Type
+Area Type
+
+Maritial Status
+Spouce Relation
+No of Girl Child
+No of Boy Child
+No of Special Child
+No of Malnutioned Child
+No of Child Loss
+No of Child left Education before 10th
+Borrowed loan from Moneylender
+
+SHG Accounting
+SHG Development
+SHG Trainings Received
+SHG Trainings Used
+Total No of Years with SHG
+Total No of SHGs
+No of Years with Current SHG
+
+Having IDs			(1:Adhaar Card;2:Ration Card;3:Voter ID Card;4:Pan Card;5:Driving License;6:Pssport;7:BPL Card;8:AAY Card;9:Senior Citizen Card;)
+Family Health		(1:BP;2:Diabetics;3:Heart Problem;4:Blood Cancer;5:Breast Cancer;6:Mouth Cancer;7:Respiratory Disorder;8:AIDS;)
+Addictions			(1:Tobacco;2:Ghutka;3:Smoking;4:Alcohol;5:Drugs;)
+Spouce Addictions	(1:Tobacco;2:Ghutka;3:Smoking;4:Alcohol;5:Drugs;)
+
+Basic Nessacity Problems Faced 
+
+Community
+Economy
+Education
+Work
+Wellbeing
+SHG
+
+Group Profiling ****************
+
+Total No of Government Scheme
+Total Amount of Government Scheme
+Total No of Bank Loans
+Total Amount of Bank Loans
+
+Basic Necessity Problems Village Face:
+	Poor Quality Drinking Water
+	No Village Water Tank Distribution
+	No Drinking Water within 1 Km
+	No Common  Village Well 
+	No Common  Village Tube Well 
+	No Water Reservoir within 5 Km
+	Less than 18 Hrs of Electricity 
+	Bad Roads in Village
+	Bad Drainage in Village
+	Bad Road Connectivity to Village
+	No Transportation 
+	No Bank within 15 Km
+	No Primary School within 2 Km
+	No Higher Secondary School in 10 Km
+	No Jr. College in 20 Km
+	No Petrol Pump within 10 Km
+	No Mobile Network Connectivity 
+	Bad Mobile Network Connectivity
+	No 2G Data Network Connectivity 
+	Bad 2G Data Network Connectivity
+	No 3G Data Network Connectivity 
+	Bad 3G Data Network Connectivity
+

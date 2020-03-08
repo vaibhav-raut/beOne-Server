@@ -1,0 +1,77 @@
+{
+  "enumName": "VisitType",
+  "enumValues": [
+    {
+      "visitTypeId": 1,
+      "visitType": "MR Pitch Visit",
+      "visitFor": "",
+      "visitTypeDesc": "SE Visit to Pitch for new MR account creation"
+    },
+    {
+      "visitTypeId": 2,
+      "visitType": "Scheduled MR Visit",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Scheduled MR Visit by SE"
+    },
+    {
+      "visitTypeId": 3,
+      "visitType": "Requested MR Visit",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Visit Requested by MR"
+    },
+    {
+      "visitTypeId": 4,
+      "visitType": "Delivery MR Visit",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Delivery requested by MR"
+    },
+    {
+      "visitTypeId": 5,
+      "visitType": "Feedback MR Visit",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Feedback MR Visit by SE"
+    },
+    {
+      "visitTypeId": 6,
+      "visitType": "Special MR Visit",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Special MR Visit by SE"
+    },
+    {
+      "visitTypeId": 7,
+      "visitType": "Opening MR Account",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Opening MR Account Visit by SE"
+    },
+    {
+      "visitTypeId": 8,
+      "visitType": "Closing MR Account",
+      "visitFor": "Micro Retailer",
+      "visitTypeDesc": "Closing MR Account Visit by SE"
+    },
+    {
+      "visitTypeId": 9,
+      "visitType": "SE Account",
+      "visitFor": "Sales Executive",
+      "visitTypeDesc": "SE interaction with HUB"
+    },
+    {
+      "visitTypeId": 10,
+      "visitType": "SSE Account",
+      "visitFor": "Super Sales Executive",
+      "visitTypeDesc": "SSE interaction with HUB"
+    },
+    {
+      "visitTypeId": 11,
+      "visitType": "Sub Local HUB",
+      "visitFor": "Sub Local HUB Manager",
+      "visitTypeDesc": "Sub Local HUB interaction with HUB"
+    },
+    {
+      "visitTypeId": 12,
+      "visitType": "Local HUB",
+      "visitFor": "Local HUB Manager",
+      "visitTypeDesc": "Local HUB interaction with HUB"
+    }
+  ]
+}

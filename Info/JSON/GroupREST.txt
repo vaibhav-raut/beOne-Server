@@ -1,0 +1,46 @@
+{
+    "groupAcNo": 300001,
+    "groupType": "SHG",
+	"contacts": [
+        {
+			"lang": "English",
+			"name": "DR. BHAUSAHEB DESHMUKH SWAYAM SAHAYATA",
+			"address": "Amravati University",
+			"pinCode": "410011",
+			"district": "Amravati",
+			"districtId": 3,
+			"division": "Amravati",
+			"state": "Maharashtra",
+			"phone": "7212510195",
+			"priMobile": "9403171561",
+			"secMobile": "9403171592",
+			"email": "choudhari.pjc@rediffmail.com"
+        }
+    ],
+    "bankAccounts": [
+        {
+			"bankAccountId": 0,
+			"accountNumber": "11111000222222",
+			"accountName": "DR. BHAUSAHEB DESHMUKH SWAYAM SAHAYATA",
+			"bankAccountType": "Saving Account",
+			"bankName": "State Bank Of India",
+			"bankBranchName": "Amravati",
+			"ifcsCode": "SBI00027"
+        },
+        {
+			"bankAccountId": 0,
+			"accountNumber": "33333000444444",
+			"accountName": "DR. BHAUSAHEB DESHMUKH SWAYAM SAHAYATA",
+			"bankAccountType": "Investment Account",
+			"bankName": "State Bank Of India",
+			"bankBranchName": "Amravati",
+			"ifcsCode": "SBI00027"
+        }
+    ]
+}
+
+{
+	"groupAcNo": 300001,
+  	"mappingMemberAcNos": [ 3000010001, 3000010002, 3000010003, 3000010004, 3000010005, 3000010006 ]
+}
+

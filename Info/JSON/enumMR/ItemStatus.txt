@@ -1,0 +1,59 @@
+{
+    "enumName": "ItemStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Created",
+            "description": "Item is Created",
+            "nextStatus": "Stocked;Discarded"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Stocked",
+            "description": "Item is Stocked",
+            "nextStatus": "Sold;Mark Sold;Damaged;Damage Returned;Damage Sold" 
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Discarded",
+            "description": "Item is Discarded",
+            "nextStatus": ""
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Lost",
+            "description": "Item is Lost",
+            "nextStatus": "Stocked;Discarded"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Sold",
+            "description": "Item is Sold",
+            "nextStatus": ""
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Mark Sold",
+            "description": "Item is to be marked as Sold",
+            "nextStatus": "Stocked;Sold;Damage Sold"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Damaged",
+            "description": "Item is Damaged",
+            "nextStatus": "Mark Sold;Damage Returned;Damage Sold;Discarded"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Damage Returned",
+            "description": "Item is Returned due to Damage",
+            "nextStatus": ""
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Damage Sold",
+            "description": "Item is Sold with Discount due to Damage",
+            "nextStatus": ""
+        }
+    ]
+}

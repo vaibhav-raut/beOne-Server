@@ -1,0 +1,70 @@
+{
+    "enumName": "TxStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Draft",
+            "description": "Transaction is saved as Draft"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Submitted",
+            "description": "Transaction is Submitted"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Missing Bank Info",
+            "description": "Transaction is Missing Bank Info"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Payment Tobe Done",
+            "description": "Transaction is waiting for Payment Tobe Done"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Approved",
+            "description": "Transaction is Approved"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Rejected",
+            "description": "Transaction is Rejected"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Undone",
+            "description": "Transaction is Undone, thus all action is reverted"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Complete",
+            "description": "Transaction is Complete and ready for Approval"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Auto Approved",
+            "description": "Transaction is Auto Approved by the System at the End of the Month"
+        },
+        {
+            "enumIndex": 10,
+            "enumValue": "Auto Rejected",
+            "description": "Transaction is Auto Rejected, as Incomplete by the System at the End of the Month"
+        },
+        {
+            "enumIndex": 11,
+            "enumValue": "Countered",
+            "description": "Transaction is Countered"
+        },
+        {
+            "enumIndex": 12,
+            "enumValue": "Counter Submitted",
+            "description": "Counter Transaction is Submitted"
+        },
+        {
+            "enumIndex": 13,
+            "enumValue": "Counter Approved",
+            "description": "Counter Transaction is Approved"
+        }
+    ]
+}

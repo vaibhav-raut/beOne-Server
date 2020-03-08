@@ -1,0 +1,21 @@
+{
+	"memberInvtAcNo": 0,
+	"memberAc": 3000030001,
+	"approvalStatus": "Draft",
+	"accountType": "Saving Account",
+	"recoveryPeriod": "Monthly",
+	"totalAm": 0.00,
+	"installmentAm": 500.00,
+	"expectedNoOfInst": 60,
+	"noOfInstPaid": 0,
+	"totalInterestAm": 0.00,
+	"prevMonthInterestAm": 0.00,
+	"recoveredPenaltyAm": 0.00,
+	"pendingPenaltyAm": 0.00,
+	"requestedDate": 0,
+	"approvedDate": 0,
+	"actualStartDate": 0,
+	"instStartDate": 0,
+	"expCompletionDate": 0,
+	"closureDate": 0
+}

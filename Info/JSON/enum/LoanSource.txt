@@ -1,0 +1,30 @@
+{
+    "enumName": "LoanSource",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "SHG",
+            "description": "Loan amount is provided by SHG"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "BANK",
+            "description": "Loan amount is provided by BANK"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "PARENT SHG",
+            "description": "Loan amount is provided by PARENT SHG"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "OTHER SHG",
+            "description": "Loan amount is provided by OTHER SHG"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "MICRO FINANCE",
+            "description": "Loan amount is provided by MICRO FINANCE"
+        }
+    ]
+}

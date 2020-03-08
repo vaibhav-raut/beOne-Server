@@ -1,0 +1,157 @@
+{
+    "enumName": "WsAccessCode",
+    "enumValues": [
+        {
+            "accessCodeId": 1,
+            "accessCode": "GROUP_DASHBOARD",
+            "accessCodeDisplay": "Group Dashboard",
+            "accessCodeCategory": "DASHBOARD",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ"
+        },
+        {
+            "accessCodeId": 2,
+            "accessCode": "MEMBER_DASHBOARD",
+            "accessCodeDisplay": "Member Dashboard",
+            "accessCodeCategory": "DASHBOARD",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ"
+        },
+        {
+            "accessCodeId": 3,
+            "accessCode": "MEMBER_WISE_DASHBOARD",
+            "accessCodeDisplay": "All Memebers in Group Dashboard",
+            "accessCodeCategory": "DASHBOARD",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ"
+        },
+        {
+            "accessCodeId": 4,
+            "accessCode": "MEMBER_AC",
+            "accessCodeDisplay": "Member Account",
+            "accessCodeCategory": "MEMBER",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 5,
+            "accessCode": "MEMBER_LOAN_AC",
+            "accessCodeDisplay": "Member Loan Account",
+            "accessCodeCategory": "MEMBER",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 6,
+            "accessCode": "SHG_GROUP_AC",
+            "accessCodeDisplay": "SHG Group Account",
+            "accessCodeCategory": "GROUP",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 7,
+            "accessCode": "SHG_GROUP_RULES",
+            "accessCodeDisplay": "SHG Group Rules",
+            "accessCodeCategory": "GROUP",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 8,
+            "accessCode": "FIRM_GROUP_AC",
+            "accessCodeDisplay": "Firm Group Account",
+            "accessCodeCategory": "GROUP",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 9,
+            "accessCode": "GROUP_MEMBERS_MAPPING",
+            "accessCodeDisplay": "Group To Member Mapping",
+            "accessCodeCategory": "GROUP",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 10,
+            "accessCode": "MEMBER_TRANSACTION",
+            "accessCodeDisplay": "Member Transaction",
+            "accessCodeCategory": "TRANSACTION",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 11,
+            "accessCode": "GROUP_TRANSACTION",
+            "accessCodeDisplay": "Group Transaction",
+            "accessCodeCategory": "TRANSACTION",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 12,
+            "accessCode": "BANK_INTERACTION",
+            "accessCodeDisplay": "Bank Interaction",
+            "accessCodeCategory": "BANK",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 13,
+            "accessCode": "MEMBER_ACCOUNT_BOOK",
+            "accessCodeDisplay": "Member Account Book",
+            "accessCodeCategory": "REPORT",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ"
+        },
+        {
+            "accessCodeId": 14,
+            "accessCode": "GROUP_ACCOUNT_BOOK",
+            "accessCodeDisplay": "Group Account Book",
+            "accessCodeCategory": "REPORT",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ"
+        },
+        {
+            "accessCodeId": 15,
+            "accessCode": "REPORTS",
+            "accessCodeDisplay": "Reports for SHG & Bank",
+            "accessCodeCategory": "REPORT",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ"
+        },
+        {
+            "accessCodeId": 16,
+            "accessCode": "ACCESS_RIGHTS",
+            "accessCodeDisplay": "Access Rights",
+            "accessCodeCategory": "ADMIN",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 17,
+            "accessCode": "MANAGE_SHG",
+            "accessCodeDisplay": "Manage Multiple SHG Groups",
+            "accessCodeCategory": "ADMIN",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 18,
+            "accessCode": "MANAGE_DATA",
+            "accessCodeDisplay": "Manage Bulk Data",
+            "accessCodeCategory": "ADMIN",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        },
+        {
+            "accessCodeId": 19,
+            "accessCode": "ADMIN_NET",
+            "accessCodeDisplay": "Admin Software Config",
+            "accessCodeCategory": "ADMIN",
+            "accessCodeDesc": "",
+            "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+        }
+    ]
+}

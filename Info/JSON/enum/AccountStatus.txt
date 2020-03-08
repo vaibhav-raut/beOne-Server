@@ -1,0 +1,70 @@
+{
+    "enumName": "AccountStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Draft",
+            "description": "Account is saved as Draft"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Submitted",
+            "description": "Account request is Submitted"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Active",
+            "description": "Account is Approved and Active"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Rejected",
+            "description": "Account is Rejected"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Sub Standard",
+            "description": "Account is Sub Standard, missed 2 or more times previous payments"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Bad Debt",
+            "description": "Account is Bad Debt, missed 6 or more times previous payments"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Foreclosed",
+            "description": "Account is Closed before expected completion date"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Bad Debt Closed",
+            "description": "Account is Closed as Bad Debt without complete payment"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Complete",
+            "description": "Account is Closed as Complete"
+        },
+        {
+            "enumIndex": 10,
+            "enumValue": "Under Review",
+            "description": "Account is Under Review"
+        },
+        {
+            "enumIndex": 11,
+            "enumValue": "On Hold",
+            "description": "Account is put On Hold for further consideration"
+        },
+        {
+            "enumIndex": 12,
+            "enumValue": "Sent Back",
+            "description": "Account is Sent Back to resubmission after missing updates"
+        },
+        {
+            "enumIndex": 13,
+            "enumValue": "Approved",
+            "description": "Account is Approved"
+        }
+    ]
+}

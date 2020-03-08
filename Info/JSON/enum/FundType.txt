@@ -1,0 +1,47 @@
+{
+    "enumName": "FundType",
+    "enumValues": [
+        {
+            "fundTypeId": 1,
+            "fundType": "Consumption Loan",
+            "fundCategory": "Regular Recovery",
+            "fundTypeDesc": "Loan with lower limit for personal consumption in emergency"
+        },
+        {
+            "fundTypeId": 2,
+            "fundType": "Individual Development Fund",
+            "fundCategory": "Regular Recovery",
+            "fundTypeDesc": "Fund for Individual Member Development with approved plan"
+        },
+        {
+            "fundTypeId": 3,
+            "fundType": "Project Development Fund",
+            "fundCategory": "Regular Recovery",
+            "fundTypeDesc": "Fund for Project Development by multiple Members with approved plan"
+        },
+        {
+            "fundTypeId": 4,
+            "fundType": "Group Project Development Fund",
+            "fundCategory": "None Regular Recovery",
+            "fundTypeDesc": "Project undertaken by the Group with no fixed Returns on Profit/Loss basis"
+        },
+        {
+            "fundTypeId": 5,
+            "fundType": "Socio Care Fund",
+            "fundCategory": "No Recovery",
+            "fundTypeDesc": "Fund spend for Social cause by Group with no returns"
+        },
+        {
+            "fundTypeId": 6,
+            "fundType": "Revolving Fund",
+            "fundCategory": "None Regular Recovery",
+            "fundTypeDesc": "Revolving Fund provided to t Group going and had tobe returned"
+        },
+        {
+            "fundTypeId": 7,
+            "fundType": "Gov Development Fund",
+            "fundCategory": "No Recovery",
+            "fundTypeDesc": "Fund provided by Gov for Development and non recoverable"
+        }
+    ]
+}

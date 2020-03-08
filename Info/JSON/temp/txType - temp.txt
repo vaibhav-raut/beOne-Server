@@ -1,0 +1,34 @@
+g_ac:
+g_invt_ac:
+g_loan_ac:
+m_ac:
+m_loan_ac:
+m_saving_ac:
+m_tx:
+g_bank_account:
+g_ac_by_txtype:
+
+ADD;
+SUB;
+DECR;
+INCR;
+CURRENT_TS;
+
+=$AY$1:$AY$7
+=$AZ$1:$AZ$9
+
+
+
+
+=$H$1:$H$7
+
+=if(E3=$BA$1, $BA$2:$BA$44,if(E3=$BB$1, $BB$2:$BB$3, if(E3=$BC$1, $BC$2:$BC$9, if(E3=$BD$1, $BD$2:$BD$15, if(E3=$BE$1, $BE$2:$BE$14, if(E3=$BF$1, $BF$2:$BF$11, if(E3=$BG$1, $BG$2:$BG$3, if(E3=$BH$1, $BH$2:$BH$3, if(E3=$BI$1, $BI$2:$BI$2, $BJ$2:$BJ$2)))))))))
+
+=if(E3=$BA$1, $BA$2:$BA$44,if(E3=$BB$1, $BB$2:$BB$3, if(E3=$BC$1, $BC$2:$BC$9, if(E3=$BD$1, $BD$2:$BD$15, if(E3=$BE$1, $BE$2:$BE$14, if(E3=$BF$1, $BF$2:$BF$11, if(E3=$BG$1, $BG$2:$BG$3, if(E3=$BH$1, $BH$2:$BH$3, if(E3=$BI$1, $BI$2:$BI$2, 1)))))))))
+=if(E3=$BA$1, $BA$2:$BA$45,if(E3=$BB$1, $BB$2:$BB$3, if(E3=$BC$1, $BC$2:$BC$9, if(E3=$BD$1, $BD$2:$BD$15, if(E3=$BE$1, $BE$2:$BE$14, if(E3=$BF$1, $BF$2:$BF$11, if(E3=$BG$1, $BG$2:$BG$3, if(E3=$BH$1, $BH$2:$BH$3, if(E3=$BI$1, $BI$2:$BI$2, 1)))))))))
+
+if(E3=$BZ$1, $BZ$2:$BZ$3, $BO$2:$BO$2)
+
+g_ac:rec_penalty_am:ADD;m_ac:rec_penalty_am:ADD;
+g_ac:rec_penalty_am:SUB;m_ac:rec_penalty_am:SUB;
+

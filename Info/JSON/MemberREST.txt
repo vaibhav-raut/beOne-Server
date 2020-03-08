@@ -1,0 +1,60 @@
+{
+	"memberAcNos": 3000010001,
+	"parentGroupAcNo": 300001,
+	"recommendedByMemberAcNo": 0,
+	"approvalStatus": "",
+	"activeStatus": "",
+	"mrole": "Core Member",
+	"passcode": "pass",
+	"gender": "Male",
+	"dateOfBirth": "14/02/1969",
+	"dateOfAnni": "26/07/1999",
+	"monthlySaving": 1000,
+	"noPlannedSavingInst": 0,
+	"contacts": [
+        {
+			"contactId": 0,
+			"lang": "English",
+			"nameTitle": "Shri",
+			"firstName": "Pankaj",
+			"middleName": "J",
+			"lastName": "Choudhari",
+			"address": "Amravati University",
+			"pinCode": "410011",
+			"district": "Amravati",
+			"districtId": 3,
+			"division": "Amravati",
+			"state": "Maharashtra",
+			"phone": "07323000111",
+			"priMobile": "01111111111",
+			"secMobile": "02222222222",
+			"email": "Pankaj.Choudhari@gmail.com"
+       }
+    ],
+    "bankAccounts": [
+        {
+			"bankAccountId": 0,
+			"accountNumber": "11111000222222",
+			"accountName": "DR. BHAUSAHEB DESHMUKH SWAYAM SAHAYATA",
+			"bankAccountType": "Saving Account",
+			"bankName": "State Bank Of India",
+			"bankBranchName": "Amravati",
+			"ifcsCode": "SBI00027"
+        },
+        {
+			"bankAccountId": 0,
+			"accountNumber": "33333000444444",
+			"accountName": "DR. BHAUSAHEB DESHMUKH SWAYAM SAHAYATA",
+			"bankAccountType": "Investment Account",
+			"bankName": "State Bank Of India",
+			"bankBranchName": "Amravati",
+			"ifcsCode": "SBI00027"
+        }
+    ]
+}
+
+{
+	"memberAcNos": 3000010007,
+  	"mappingGroupAcNos": [ 300001, 300002, 300003 ]
+}
+

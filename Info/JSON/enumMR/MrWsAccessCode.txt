@@ -1,0 +1,141 @@
+{
+  "enumName": "MrWsAccessCode",
+  "enumValues": [
+    {
+      "accessCodeId": 1,
+      "accessCode": "HUB_DASHBOARD",
+      "accessCodeDisplay": "HUB Dashboard",
+      "accessCodeCategory": "DASHBOARD",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ"
+    },
+    {
+      "accessCodeId": 2,
+      "accessCode": "MR_DASHBOARD",
+      "accessCodeDisplay": "MR Dashboard",
+      "accessCodeCategory": "DASHBOARD",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ"
+    },
+    {
+      "accessCodeId": 3,
+      "accessCode": "MR_WISE_DASHBOARD",
+      "accessCodeDisplay": "All MRs in HUB Dashboard",
+      "accessCodeCategory": "DASHBOARD",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ"
+    },
+    {
+      "accessCodeId": 4,
+      "accessCode": "MR_AC",
+      "accessCodeDisplay": "MR Account",
+      "accessCodeCategory": "ACCOUNT",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 5,
+      "accessCode": "SE_AC",
+      "accessCodeDisplay": "SE Account",
+      "accessCodeCategory": "ACCOUNT",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 6,
+      "accessCode": "HUB_AC",
+      "accessCodeDisplay": "Local HUB Account",
+      "accessCodeCategory": "ACCOUNT",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 7,
+      "accessCode": "MR_VISIT",
+      "accessCodeDisplay": "MR Visit",
+      "accessCodeCategory": "TRANSACTION",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 8,
+      "accessCode": "MR_VISIT_TRACKING",
+      "accessCodeDisplay": "MR Visit Tracking",
+      "accessCodeCategory": "TRANSACTION",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 9,
+      "accessCode": "PURCHASE_INVOICE",
+      "accessCodeDisplay": "Purchase Invoice Management",
+      "accessCodeCategory": "PURCHASE",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 10,
+      "accessCode": "MANAGE_STOCK",
+      "accessCodeDisplay": "Manage Stock",
+      "accessCodeCategory": "ADMIN",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 11,
+      "accessCode": "MR_REPORT",
+      "accessCodeDisplay": "MR Report",
+      "accessCodeCategory": "REPORT",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 12,
+      "accessCode": "HUB_REPORT",
+      "accessCodeDisplay": "HUB Report",
+      "accessCodeCategory": "REPORT",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 13,
+      "accessCode": "STOCK_REPORT",
+      "accessCodeDisplay": "Stock Reports",
+      "accessCodeCategory": "REPORT",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 14,
+      "accessCode": "ACCESS_RIGHTS",
+      "accessCodeDisplay": "Access Rights",
+      "accessCodeCategory": "ADMIN",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 15,
+      "accessCode": "MANAGE_MHUB",
+      "accessCodeDisplay": "Manage Mega HUB",
+      "accessCodeCategory": "ADMIN",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 16,
+      "accessCode": "MANAGE_DATA",
+      "accessCodeDisplay": "Manage Bulk Data",
+      "accessCodeCategory": "ADMIN",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    },
+    {
+      "accessCodeId": 17,
+      "accessCode": "ADMIN_NET",
+      "accessCodeDisplay": "Admin Software Config",
+      "accessCodeCategory": "ADMIN",
+      "accessCodeDesc": null,
+      "accessLevel": "NO_ACCESS:READ:UPDATE:APPROVE"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+AUTH-Token
+
+MEM-Ac-No	1000010001
+
+SEL-GRP-Ac-No	100001
+
+W7m74FMk6sqRjBdeT9xHLNCLSSx-rUl2033jwNakd1V2PzatUtiUOPVQfRqNmdYXFZbVaR0scKfIUA4KzTAtsST_0aq5LMiW-uuJFHLNOqXooRrwuUbeXJ6YVI21Fm6nfZCyKRw6O0KO1IkCaUOIFlx-RHdQ96HpRCewaYUsy3A
+
+
+{
+	"investmentType":"Investment Account",
+	"rateOfInterest":9,
+	"invtAm":30000,
+	"requestedDate":"08/02/2015",
+	"noOfMonths":36
+}
+
+http://localhost/shg-ws/group_invt/v1/invt_planning
+

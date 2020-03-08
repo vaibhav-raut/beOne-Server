@@ -1,0 +1,25 @@
+{
+    "enumName": "ReasonToUndo",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Entry Mistake",
+            "description": "Transaction is undone due to mistake in entry"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Cheque Bounced",
+            "description": "Transaction is undone due to Cheque Bounced"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Auto Debit Failure",
+            "description": "Transaction is undone due to Auto Debit Failure"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Payment Tobe Done",
+            "description": "Transaction is undone due to Duplicate"
+        }
+    ]
+}

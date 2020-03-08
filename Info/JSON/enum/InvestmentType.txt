@@ -1,0 +1,30 @@
+{
+    "enumName": "InvestmentType",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Project Development",
+            "description": "Investments in Project Development"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Fix Deposit",
+            "description": "Investments in Fix Deposit"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Investment Account",
+            "description": "Investment Account"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Over Draft Account",
+            "description": "Over Draft Account with Bank"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Mutual Fund",
+            "description": "Investments in Mutual Fund"
+        }
+    ]
+}

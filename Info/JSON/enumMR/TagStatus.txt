@@ -1,0 +1,23 @@
+{
+  "statusName": "TagStatus",
+  "statusValues": [
+    {
+      "statusIndex": 1,
+      "statusValue": "Created",
+      "description": "Tag is Created",
+      "nextStatus": "Printed;Canceled"
+    },
+    {
+      "statusIndex": 2,
+      "statusValue": "Printed",
+      "description": "Tag is Printed",
+      "nextStatus": ""
+    },
+    {
+      "statusIndex": 3,
+      "statusValue": "Canceled",
+      "description": "Tag is Canceled",
+      "nextStatus": ""
+    }
+  ]
+}

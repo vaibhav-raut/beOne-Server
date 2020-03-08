@@ -1,0 +1,127 @@
+saved_am
+	c_m_saved_am
+	a_m_saved_am
+
+planned_monthly_saving
+	c_m_planned_monthly_saving
+	a_m_planned_monthly_saving
+
+prov_int_en_am
+	c_m_prov_int_en_am
+	a_m_prov_int_en_am
+
+returned_saved_am
+	c_m_returned_saved_am
+	a_m_returned_saved_am
+
+returned_int_en_am
+	c_m_returned_int_en_am
+	a_m_returned_int_en_am
+
+c_m_profit_share_declared_am
+a_m_divided_declared_am
+c_m_profit_share_paid_am
+a_m_divided_paid_am
+
+outstanding_loan_am
+	c_m_loan_am - c_m_rec_loan_am
+	a_m_loan_am - a_m_rec_loan_am
+
+loan_am
+	c_m_loan_am
+	a_m_loan_am
+
+rec_loan_am
+	c_m_rec_loan_am
+	a_m_rec_loan_am
+
+rec_int_on_loan_am
+	c_m_rec_int_on_loan_am
+	a_m_rec_int_on_loan_am
+
+proj_int_on_loan_am
+	c_m_proj_int_on_loan_am
+	a_m_proj_int_on_loan_am
+
+bad_dept_closed_am
+	c_m_bad_dept_closed_am
+	a_m_bad_dept_closed_am
+
+outstanding_p_loan_am
+	p_loan_am - p_rec_loan_am
+	- x GInvtAc
+p_loan_am
+	- x GInvtAc
+p_rec_loan_am
+	- x GInvtAc
+p_rec_int_on_loan_am
+	- x GInvtAc
+p_proj_int_on_loan_am
+	- x GInvtAc
+
+outstanding_fix_deposit_am
+	fix_deposit_inv_am - rec_fix_deposit_am
+	- x GInvtAc
+fix_deposit_inv_am
+	- x GInvtAc
+rec_fix_deposit_am
+	- x GInvtAc
+rec_int_on_fix_deposit_am
+	- x GInvtAc
+proj_int_on_fix_deposit_am
+	- x GInvtAc
+
+outstanding_other_inv_am
+	other_inv_am - rec_other_inv_am
+	- x GInvtAc
+other_inv_am
+	- x GInvtAc
+rec_other_inv_am
+	- x GInvtAc
+rec_int_on_other_inv_am
+	- x GInvtAc
+proj_int_on_other_inv_am
+	- x GInvtAc
+
+outstanding_bank_loan_am
+	borrowed_loan_am - paid_borrowed_loan_am
+	- x GLoanAc
+bank_loan_am
+	- x GLoanAc
+paid_bank_loan_am
+	- x GLoanAc
+paid_int_on_bank_loan_am
+	- x GLoanAc
+proj_int_on_bank_loan_am
+	- x GLoanAc
+bad_bank_loan_dept_am
+	- x GLoanAc
+
+int_en_on_saving_ac_am
+	- x GBankAccount
+
+net_profit_am
+expenses_am
+	- x GAcByTxtype
+
+fee_penalty_am
+	- x GAcByTxtype
+
+outstanding_penalty_am
+	- x GAcByTxtype
+
+pen_shg_one_mem_reg_fee
+pen_shg_one_service_charges
+
+bank_balance_am
+	clear_bank_balance_am - subj_clearing_bank_balance_am
+	- x GBankAccount
+clear_bank_balance_am
+	- x GBankAccount
+subj_clearing_bank_balance_am
+	- x GBankAccount
+
+cash_in_hand_am
+	clear_cash_in_hand_am - subj_clearing_cash_in_hand_am
+clear_cash_in_hand_am
+subj_clearing_cash_in_hand_am

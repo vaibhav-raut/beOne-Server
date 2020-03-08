@@ -1,0 +1,27 @@
+Manage > Group Status Change Page: (think of better name)
+	Condition to show this Tab:
+	1 - Selected Group should be other than Parent Group
+	2 - User should have access - MANAGE_SHG
+(API - /group/v1/update_group_status)
+
+If Current group status is Not from following; show message and keep page disabled
+	Active
+	Inactive
+	Idle
+	Locked
+Else keep it active
+
+If Current group status is from:
+	Active
+	Inactive
+	Idle
+Then Show option to:
+	1 - Lock			- send status "Locked" in request 
+	2 - Close			- send status "Closed" in request 
+	3 - Mark Junk		- send status "Junk" in request 
+	
+If Current group status is "Locked", Then show following options:
+	1 - Unlock			- send status "Inactive" in request 
+	2 - Close			- send status "Closed" in request 
+	3 - Mark Junk		- send status "Junk" in request 
+

@@ -1,0 +1,24 @@
+
+districts	- loop
+
+	sprint - loop - do while
+		
+		if(JobQueue - free) 
+			- update pre-sprint end info
+			- load next 100 groups for district 
+			
+			if(g-list enpty) 
+				- end sprint loop for the district
+				
+			else 
+				- create new sprint 
+				- process groups
+				- put groups to job-queue
+			end
+		else 
+			- sleep for 1 min
+		end
+		
+	end loop
+end loop
+

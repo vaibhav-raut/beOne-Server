@@ -1,0 +1,20 @@
+Did initial updates for closure... please have a look.... few issues are there... not sure which side...
+1. GET for member_complete_data is having null memberName.
+2. getting 500 error in getting member txs_to_close...
+got this {"error":{"message":"Bad Input Request Exception: Account status Not 'Approved' it is : Active","reference":null}}
+Inputs required:
+1. How to get member's actual fund plan / EMI breakdown to display while closure?
+Sachin • Aug 30, 10:11 PM
+Sachin BeOne
+>>>
+currently I m calling get on member complete data to get member reg detail and his loan account detail....
+this object doesn't have 'displayNames'.... currently I m using display names from app tracking object (response of '/group/v1/group_applications/').
+Should I hard code these display names reuired in header of table in case of closure page.?
+Sachin • Aug 30, 10:33 PM
+Sachin BeOne
+....
+I was talking abt group rules ki mene update nahi kiye hai... wo toh kar diye the... just checked... 
+Kuchh aur exceptions aya tha I thought ki becoz of this.
+Closure page almost in place...all changes are committed.
+Only minor updates are required to make it work.
+Sachin • Aug 30, 10:41 PM

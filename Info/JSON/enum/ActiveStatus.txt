@@ -1,0 +1,50 @@
+{
+    "enumName": "ActiveStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Requested",
+            "description": "Account is Requested"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Active",
+            "description": "Account is Active"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Inactive",
+            "description": "Account is Inactive as after approval no activity is done on the account"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Idle",
+            "description": "Account is Idle as not activity is done for more than 2 Months"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Locked",
+            "description": "Account is Locked due to some reason"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Completed",
+            "description": "Account has Compeleted given specific duration"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Closed",
+            "description": "Account is Closed"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Junk",
+            "description": "Account is Junk"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Requested Closure",
+            "description": "Account is Requested for Closure"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+	"memberAcNo": 0,
+	"parentGroupAcNo": 100001,
+	"recommendedByMemberAcNo": 1000010001,
+	"approvalStatus": "",
+	"activeStatus": "",
+	"mrole": "SHG-One Admin",
+	"passcode": "@Vaibhav#",
+	"gender": "Male",
+	"dateOfBirth": "08/08/1980",
+	"dateOfAnni": "",
+	"contacts": [
+        {
+			"contactId": 0,
+			"lang": "English",
+			"nameTitle": "",
+			"firstName": "Vaibhav",
+			"middleName": "Vinodrao",
+			"lastName": "Raut",
+			"address": "Balewadi, Banner",
+			"pinCode": "411045",
+			"district": "Amravati",
+			"phone": "",
+			"priMobile": "09503131871",
+			"secMobile": "",
+			"email": "vaibhav.beone@gmail.com"
+       }
+    ]
+}
+
+{
+	"memberAcNo": 0,
+	"parentGroupAcNo": 100001,
+	"recommendedByMemberAcNo": 1000010002,
+	"approvalStatus": "",
+	"activeStatus": "",
+	"mrole": "SHG-One Admin",
+	"passcode": "@Sachin#",
+	"gender": "Male",
+	"dateOfBirth": "11/07/1985",
+	"dateOfAnni": "",
+	"contacts": [
+        {
+			"contactId": 0,
+			"lang": "English",
+			"nameTitle": "",
+			"firstName": "Sachin",
+			"middleName": "",
+			"lastName": "Parmar",
+			"address": "Balewadi, Banner",
+			"pinCode": "411045",
+			"district": "Amravati",
+			"phone": "",
+			"priMobile": "09503088330",
+			"secMobile": "",
+			"email": "sachin.beone@gmail.com"
+       }
+    ]
+}
+
+{
+	"memberAcNo": 0,
+	"parentGroupAcNo": 600001,
+	"recommendedByMemberAcNo": 1000010002,
+	"approvalStatus": "",
+	"activeStatus": "",
+	"mrole": "Area Admin",
+	"passcode": "@Pankaj#",
+	"gender": "Male",
+	"dateOfBirth": "10/1/1976",
+	"dateOfAnni": "27/01/2008",
+	"contacts": [
+        {
+			"contactId": 0,
+			"lang": "English",
+			"nameTitle": "Mr",
+			"firstName": "Pankaj",
+			"middleName": "Jayantrao",
+			"lastName": "Choudhari",
+			"address": "Shri Hari Vihar, Behind Saturna MIDC, Badnera Road, Amravati",
+			"pinCode": "444607",
+			"district": "Amravati",
+			"phone": "07212510195",
+			"priMobile": "09403171561",
+			"secMobile": "09403171592",
+			"email": "pankaj.beone@gmail.com"
+       }
+    ]
+}
+
+{
+	"memberAcNo": 0,
+	"parentGroupAcNo": 600001,
+	"recommendedByMemberAcNo": 1000010002,
+	"approvalStatus": "",
+	"activeStatus": "",
+	"mrole": "Area Admin",
+	"passcode": "@Nikita#",
+	"gender": "Male",
+	"dateOfBirth": "1/1/1988",
+	"dateOfAnni": "",
+	"contacts": [
+        {
+			"contactId": 0,
+			"lang": "English",
+			"nameTitle": "Mr",
+			"firstName": "Nikita",
+			"middleName": "",
+			"lastName": "Dafre",
+			"address": "Amravati",
+			"pinCode": "444607",
+			"district": "Amravati",
+			"phone": "",
+			"priMobile": "09021219746",
+			"secMobile": "07387791021",
+			"email": "nikita.beone@gmail.com"
+       }
+    ]
+}

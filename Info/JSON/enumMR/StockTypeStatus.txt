@@ -1,0 +1,41 @@
+{
+    "enumName": "StockTypeStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Created",
+            "description": "Stock Type is Created",
+            "nextStatus": "Stocked;Discarded"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Stocked",
+            "description": "Stock Type is Stocked",
+            "nextStatus": "Stocked Closed;Sold Out;Sold Out Closed;Discarded"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Stocked Closed",
+            "description": "Stock Type is Stocked & Closed as no longer available",
+            "nextStatus": "Sold Out Closed"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Sold Out",
+            "description": "Stock Type is Completely Sold Out",
+            "nextStatus": "Sold Out Closed"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Sold Out Closed",
+            "description": "Stock Type is Completely Sold Out & Closed as no longer available",
+            "nextStatus": ""
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Discarded",
+            "description": "Stock Type is Discarded",
+            "nextStatus": ""
+        }
+    ]
+}

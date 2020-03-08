@@ -1,0 +1,32 @@
+PurchaseInvoice addPurchaseInvoice(PurchaseInvoice request)
+PurchaseInvoice updatePurchaseInvoice(PurchaseInvoice request)
+
+List<PurchaseInvoice> getPurchaseInvoice(String request)
+LotM addLot(LotM request)
+
+List<StockTypeName> searchStockType(long brandId, String stockNameShort)
+List<StockTypeName> searchStockType(String stockNameShort)
+
+StockTypeM addStockType(StockTypeM request)
+List<BrandName> searchBrand(long manufactureAcNo, String brandShort)
+BrandM addBrand(BrandM request)
+List<GroupName> searchManufacturer(String request)
+GroupREST addManufacturer(GroupREST request)
+
+List<StockItemM> getStockItemsForMember(long memberAcNo)
+List<StockItemM> returnStockItemsForMember(long memberAcNo, List<StockItemM> stocks)
+SalesInvoice genSalesInvoiceForMember(long memberAcNo, List<StockItemM> stocks)
+
+void addEnumValues(GenericEnum addEnum)
+void updateEnumValues(GenericEnum addEnum)
+GenericEnum getEnumValues(String enumName)
+
+void addPCategory(PCategoryEnum enu)
+void updatePCategory(PCategoryEnum enu)
+PCategoryEnum getPCategory()
+
+void addProductPricing(ProductPricingEnum enu)
+void updateProductPricing(ProductPricingEnum enu)
+ProductPricingEnum getProductPricing()
+
+getLots

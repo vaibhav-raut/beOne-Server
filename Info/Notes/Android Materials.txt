@@ -1,0 +1,11 @@
+slidenerd Tutorial: https://www.youtube.com/watch?v=0eSTfgF6DXY#t=391.725708
+
+#9 Android Multithreading Example Part 4: Android Tutorial For Beginners:	https://www.youtube.com/watch?v=I95Iuc8nsUw
+#11 Android Handler Tutorial Part 1: Android Tutorial For Beginners			https://www.youtube.com/watch?v=LJ_pUlWzGsc
+#1 Android Data Storage Options: Android Application Development Tutorial:	https://www.youtube.com/watch?v=Oa1mlObffiA
+
+
+GridView: http://www.mkyong.com/android/android-gridview-example/
+
+
+

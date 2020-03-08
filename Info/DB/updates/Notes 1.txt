@@ -1,0 +1,13 @@
+Application Tracking: 
+1. for Fund Application: "Approved" is = "Active"; thus for "Active" - status Approve/Reject/OnHold buttons shall be hidden
+
+Collections Pages - for Status:
+1 - dropdown should be showing Status which are avaliable in the data (not every value possible)
+2 - just remove "Transactions Found."; let there be just number
+3 - don't show "--" before loading "Transactions Found."
+
+Trace Transaction:
+1 - From & To show be in top row
+2 - From & To should have default values
+3 - All dropdown like "Payment Mode" & "Transaction Type" - should have "All" -option at the top
+4 - Need to load all "Transaction Type" 

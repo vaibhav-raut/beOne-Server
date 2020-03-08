@@ -1,0 +1,73 @@
+Add Transction Page:
+
+1. Select: Transaction With / Type - Radio Button
+	Options: (A, B & C - TxType.txCategory)
+	A - MEMBER
+		a - MEMBER SAVING
+		b - MEMBER LOAN
+		c - PROFIT SHARE
+		d - FEE PENALTY
+		e - OUTSTANDING FEE		
+	B - GROUP
+		a - PROJECT LOAN
+		b - TRANSFER
+		c - EXPENSE		
+	C - BANK
+		a - BANK LOAN
+		b - INVESTMENT
+		c - EXPENSE
+		
+2 - Select: Transaction Category - dropdown 
+	Options: (a, b, c, d & e... based on 1 - Distint from TxType.txCategory)
+
+3 - Select: Transaction Type - dropdown 
+	Options: (Filtered based on 1 & 2 - selection)
+
+4 -
+If 1 == A || B
+	Search Member By Name
+
+5 -
+If MEMBER SAVING 
+	Select Member Active Saving Ac - dropdown - select first by default 
+	(Display - Member Name + MemberSavingAcREST.memberSavingAcNo)
+	(Transaction.savingAcNo = MemberSavingAcREST.memberSavingAcNo)
+	
+	
+If MEMBER LOAN
+	Select Member Active Loan Ac - dropdown - select first by default 
+	(Display - Member Name + MemberLoanAcREST.memberLoanAcNo)
+	(Transaction.memberLoanAcNo = MemberLoanAcREST.memberLoanAcNo)
+
+If PROJECT LOAN
+	Select Active Project Loan Ac - dropdown - select first by default 
+	(Display - GroupInvtAcREST.investmentAcName)
+	(Transaction.groupInvtAcNo = GroupInvtAcREST.groupInvtAcNo &
+	Transaction.externalGroupBankAcNo = GroupInvtAcREST.invtBankAcNo)
+
+If BANK LOAN
+	Select Active Bank Loan Ac - dropdown - select first by default 
+	(Display - GroupLoanAcREST.loanAcName)
+	(Transaction.groupInvtAcNo = GroupLoanAcREST.groupLoanAcNo &
+	Transaction.externalGroupAcNo = GroupLoanAcREST.bankGroupAcNo &
+	Transaction.externalGroupBankAcNo = GroupLoanAcREST.loanBankAcNo)
+
+If INVESTMENT
+	Select Active Investments Ac - dropdown - select first by default 
+	(Display - GroupInvtAcREST.investmentAcName)
+	(Transaction.groupInvtAcNo = GroupInvtAcREST.groupInvtAcNo &
+	Transaction.externalGroupAcNo = GroupInvtAcREST.bankGroupAcNo &
+	Transaction.externalGroupBankAcNo = GroupInvtAcREST.invtBankAcNo)
+	
+6 - Amount *
+7 - Payment Mode *
+8 - Slip No. *
+9 - Payment Date *
+10 - SHG Bank Ac No. *
+11 - Member Bank Ac No.
+12 - Remarks (Change Description to)
+	
+	
+	
+	
+	

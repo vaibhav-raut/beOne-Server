@@ -1,0 +1,48 @@
+Purchase Invoice Page:
+	- Show this Tab when: 
+		- If user group Type = SHG-One Hub Purchase
+
+There would be to secssions:
+	A - Details about Purchase
+	B - Details about Items
+	
+Section A - Details about Purchase	
+	1 - Search Vendor: (Vendor Search API, Vendor Search Result should also show option to Add Vendor)
+	2 - Invoice No - Edit field
+	3 - Invoice Status - Dropdown field
+	4 - Order Date - Date picker
+	5 - Invoice Date - Date picker
+	6 - Delivery Date - Date picker
+	7 - Description - Edit field
+	8 - No Of Lots - Edit field with Whole Nurber 
+	9 - No Of Items - Edit field with Whole Nurber 
+	10 - Total - Edit field with Decimal (2 place) 
+	11.1 - % VAT - Edit field with Decimal (2 place)
+	11.2 - VAT - Display field calculated as: = Total * (100 - % VAT)/100 
+	12.1 - % Discount - Edit field with Decimal (2 place)
+	12.2 - Discount - Display field calculated as: = (Total + VAT) * (100 - % Discount)/100
+	13 - Other Taxes - Edit field with Decimal (2 place)
+	14 - GrossTotal - Display field calculated as: = Total + VAT + Other Taxes - Discount  
+	15 - Net Total Calculated  - Display field calculated as: = (Sum of All Lot Totals) + VAT + Other Taxes - Discount
+
+Section B - Details about Items
+Table of Lots with Coloums:
+	1 - Lot No (Auto Incremented)
+	2 - Search "Stock Type" or Add
+	3 - No Per Set
+	4 - No Of Set
+	5 - Item Price
+	6 - Lot Total
+	
+APIs:
+- searchVendor
+- addVendor
+- searchBrand
+- addBrand
+- searchStockItem
+- addStockItem
+
+- addPInvoice
+- addPInvoiceLots 
+- editPInvoiceLots
+- getLotsBarcodes

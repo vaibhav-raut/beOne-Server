@@ -1,0 +1,60 @@
+{
+    "enumName": "Lang",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "English",
+            "description": ""
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Hindi",
+            "description": ""
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Marathi",
+            "description": ""
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Bengali",
+            "description": ""
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Gujarati",
+            "description": ""
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Kannada",
+            "description": ""
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Tamil",
+            "description": ""
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Telugu",
+            "description": ""
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Malayalam",
+            "description": ""
+        },
+        {
+            "enumIndex": 10,
+            "enumValue": "Punjabi",
+            "description": ""
+        },
+        {
+            "enumIndex": 11,
+            "enumValue": "Urdu",
+            "description": ""
+        }
+    ]
+}

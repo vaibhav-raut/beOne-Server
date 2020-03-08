@@ -1,0 +1,234 @@
+*******************************
+++ nominee_relation
+nominee_relation_id
+nominee_relation
+nominee_relation_desc
+
+++ income_category
+income_category_id
+income_category
+income_category_desc
+
+++ caste_category
+caste_category_id
+caste_category
+caste_category_desc
+
+++ m_details:
+m_details.father_spouse_name
+m_details.nominee
+m_details.nominee_relation_id
+m_details.married
+m_details.girl_child_no
+m_details.boy_child_no
+m_details.education
+m_details.occupation
+m_details.annual_income
+m_details.income_category_id
+m_details.caste
+m_details.religion
+m_details.caste_category_id
+
+++ g_details:
+shg_code	
+shg_type	
+promoted_by	
+micro_plan_prepared	
+basic_shg_training	
+bookkeeper_identified	
+standard_bookkeeping_practices	
+bank_linkage_happened	
+meeting_frequency	
+usual_amount_of_saving	
+bank_code
+
+************************************
+Done--- shg-Model 6.7 update*******************************************
+
+m_ac.divided_profit_declared_am
+
+g_ac.c_m_profit_share_declared_am
+g_ac.a_m_divided_declared_am
+
+contact.village			25
+contact.grampanchayat	25
+contact.taluka			25
+
+g_rules:
+++ cm_monthly_saving    
+++ am_min_monthly_saving
+++ am_max_monthly_saving
+++ cm_application_fee
+++ am_application_fee
+++ sms_service
+++ mail_service
+++ report_printing_service
+++ sms_service_lang_id
+++ mail_service_lang_id
+++ report_printing_service_lang_id
+
+m_loan_ac.loan_source_id
+m_loan_ac.development_plan
+++ m_loan_ac.description
+
+++ loan_source
+loan_source_id
+loan_source
+loan_source_desc
+
+++ g_profile.date_of_registration
+## g_profile.registrationNo - registration_no
+++ g_profile.description
+++ g_profile.approval_date
+
+
+
+-- m_profile.access_rights
+m_profile.pan_card_no
+m_profile.voter_id_no
+m_profile.driving_license_no
+++ m_profile.description
+
+++ g_m.ws_access_rights
+++ g_m.ui_access_rights
+
+++ b_m.ws_access_rights
+++ b_m.ui_access_rights
+
+++
+
+m_ac.meeting_attendance
+m_ac.meeting_attended
+m_ac.meeting_missed
+m_ac.returned_saved_am
+m_ac.returned_int_en_am
+
+++ g_ac 
+g_ac.meeting_attendance
+c_m_returned_saved_am
+c_m_returned_int_en_am
+a_m_returned_saved_am
+a_m_returned_int_en_am
+int_en_on_saving_ac_am
+
+++ monthly_g_ac
+c_m_returned_saved_am
+c_m_returned_int_en_am
+a_m_returned_saved_am
+a_m_returned_int_en_am
+p_pending_loan_am
+pending_fix_deposit_am
+pending_other_inv_am
+int_en_on_saving_ac_am
+pending_borrowed_loan_am
+
+++ m_tx_todo.interest_component
+++ b_tx_todo.interest_component
+
+
+++ TxType
+- Interest Earned On Savings Ac
+- Tx Category
+- Pending Net Charge Registration Fee 
+- Pending Net Charge Loan Processing Fee 
+
+
+***************************************************
+DB Updates:
+Added: g_loan_ac.approved_by_m
+Added: g_invt_ac.approved_by_m
+Added: g_profile.approved_by_m
+Added: m_profile.approved_by_m
+
+bank_profile--------------------------
+contact_id
+--------------------------------------
+
+g_loan_ac ---------------------------
+g_loan_ac_id --> g_loan_ac_no
+bank_profile_id
+account_type_id --> fund_type_id
+loan_calculation_id
+approved_by_m
+
+loan_am --> principle_am
+pending_principle_am
+paid_interest_am
+proj_interest_am
+inst_am --> installment_am
+pre_emi_interest_am
+pending_interest_due_am
+--total_int_paid_am
+--prev_month_int_am
+--penalty_paid_am
+--pending_penalty_am
+startup_no_of_inst
+no_of_insall_late
+no_of_insall_missed
+attachment_url
+-------------------------------------
+
+g_invt_ac-----------------------------------
+bank_profile_id
+account_type_id --> investment_type_id
+m_profileaturity_date --> maturity_date
+rec_invt_am
+rec_interest_am
+proj_return_am --> proj_interest_am
+---------------------------------------------
+
+account_type --> investment_type-------------
+account_type_id -> investment_type_id
+account_type -> investment_type
+account_type_desc -> investment_type_desc
+--------------------------------------------
+
+b_tx---------------------------------
+tx_done_by_m --> done_by_m
+++g_loan_ac_no
+++g_invt_ac_no
+--m_ac_no
+--b_tx_for
+--b_tx_for_ac_id
+reason_to_undo
+cheque_no
+-------------------------------------
+
+group_contact------------------------
+++vision
+++description
+-------------------------------------
+
+g_profile----------------------------
+++registrationNo
+-------------------------------------
+
+g_rules-----------------------------
+++cm_base_int_on_loan
+++am_base_int_on_loan
+-----------------------------------
+
+*********************************
+
+GProfile
+GAc
+GroupContact - Contact
+GAcByTxtype
+GBankAccount
+GInvtAc
+GLoanAc
+GM
+GRules
+
+MProfile
+MAc
+MBankAccount
+MemberContact
+
+MLoanAc
+MSavingAc
+
+MTx
+MTxTodo
+*****************************
+C 3 Shivratna image Dhayari, Dhayari Narhe Road, opp high bliss society, kailas jivan factory javal

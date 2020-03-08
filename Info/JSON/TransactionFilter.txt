@@ -1,0 +1,12 @@
+{
+	"lang": "English",
+	"groupAcNo": 300001,
+	"startTime": 1404172800000,
+	"endTime": 1406851199000,
+	"txType": "Saving Installment",
+	"txStatus": "",
+	"paymentMode": "",
+	"memberAcNo": "",
+	"doneByMember": "",
+	"approvedByMember": ""
+}

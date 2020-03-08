@@ -1,0 +1,61 @@
+{
+    "enumName": "ProductPricing",
+    "enumValues": [
+        {
+            "productPricingId": 1,
+            "productPricing": "Default",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.0,
+            "otherTaxesPercent": 0.0
+        },
+        {
+            "productPricingId": 2,
+            "productPricing": "Saree",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.0,
+            "otherTaxesPercent": 0.0
+        },
+        {
+            "productPricingId": 3,
+            "productPricing": "Dress Material",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.0,
+            "otherTaxesPercent": 0.0
+        },
+        {
+            "productPricingId": 4,
+            "productPricing": "Top",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.12,
+            "otherTaxesPercent": 0.0
+        },
+        {
+            "productPricingId": 5,
+            "productPricing": "Legging",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.12,
+            "otherTaxesPercent": 0.0
+        },
+        {
+            "productPricingId": 6,
+            "productPricing": "Dupatta",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.12,
+            "otherTaxesPercent": 0.0
+        },
+        {
+            "productPricingId": 7,
+            "productPricing": "Patiala",
+            "wpPercent": 1.353,
+            "mrPercent": 1.5,
+            "vatPercent": 0.12,
+            "otherTaxesPercent": 0.0
+        }
+    ]
+}

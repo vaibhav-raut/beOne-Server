@@ -1,0 +1,158 @@
+{
+    "enumName": "MRole",
+    "enumValues": [
+        {
+            "roleId": 1,
+            "role": "Associate Member",
+            "roleCategory": "SHG Member",
+            "belongTo": "SHG",
+            "roleDesc": "Associate Member of the Group for a fix duration",
+            "defaultWsAccessRights": 4466900210185,
+            "defaultUiAccessRights": 68853694985
+        },
+        {
+            "roleId": 2,
+            "role": "Core Member",
+            "roleCategory": "SHG Member",
+            "belongTo": "SHG",
+            "roleDesc": "Core forunder Member of the Group",
+            "defaultWsAccessRights": 4466900210249,
+            "defaultUiAccessRights": 68853695049
+        },
+        {
+            "roleId": 3,
+            "role": "Group Accountant",
+            "roleCategory": "Accountant",
+            "belongTo": "SHG",
+            "roleDesc": "Non Member working as Accountant for a Group",
+            "defaultWsAccessRights": 5045915596353,
+            "defaultUiAccessRights": 630746625601
+        },
+        {
+            "roleId": 4,
+            "role": "Group Secretary",
+            "roleCategory": "SHG Member",
+            "belongTo": "SHG",
+            "roleDesc": "Secretary of the Group",
+            "defaultWsAccessRights": 5045915858505,
+            "defaultUiAccessRights": 630746625609
+        },
+        {
+            "roleId": 5,
+            "role": "Group Treasure",
+            "roleCategory": "SHG Member",
+            "belongTo": "SHG",
+            "roleDesc": "Treasure of the Group",
+            "defaultWsAccessRights": 5085107450441,
+            "defaultUiAccessRights": 687194617417
+        },
+        {
+            "roleId": 6,
+            "role": "Group President",
+            "roleCategory": "SHG Member",
+            "belongTo": "SHG",
+            "roleDesc": "President of the Group",
+            "defaultWsAccessRights": 5085107581513,
+            "defaultUiAccessRights": 687194766921
+        },
+        {
+            "roleId": 7,
+            "role": "NGO Agent",
+            "roleCategory": "NGO",
+            "belongTo": "NGO",
+            "roleDesc": "Agent from NGO Group which can manage Multiple Groups",
+            "defaultWsAccessRights": 849510040337985,
+            "defaultUiAccessRights": 388814799371841
+        },
+        {
+            "roleId": 8,
+            "role": "NGO Support Admin",
+            "roleCategory": "NGO",
+            "belongTo": "NGO",
+            "roleDesc": "Support Admin from NGO Group which can manage Multiple Groups",
+            "defaultWsAccessRights": 955063220567617,
+            "defaultUiAccessRights": 16747761114283585
+        },
+        {
+            "roleId": 9,
+            "role": "NGO Admin",
+            "roleCategory": "NGO",
+            "belongTo": "NGO",
+            "roleDesc": "Super Admin form NGO Group which can manage Multiple Groups",
+            "defaultWsAccessRights": 2221700682874433,
+            "defaultUiAccessRights": 18014398509481537
+        },
+        {
+            "roleId": 10,
+            "role": "Bank Auditor",
+            "roleCategory": "Auditor",
+            "belongTo": "Bank",
+            "roleDesc": "Auditor from Bank which can monitor Multiple Groups",
+            "defaultWsAccessRights": 5076651343937,
+            "defaultUiAccessRights": 78634811457
+        },
+        {
+            "roleId": 11,
+            "role": "Area Agent",
+            "roleCategory": "Agent",
+            "belongTo": "SHG-One Agent",
+            "roleDesc": "SHG-One Area Agent which can manage Multiple Groups in perticular Area",
+            "defaultWsAccessRights": 955063157653065,
+            "defaultUiAccessRights": 404620279021129
+        },
+        {
+            "roleId": 12,
+            "role": "Area Support Admin",
+            "roleCategory": "Admin",
+            "belongTo": "Area Admin",
+            "roleDesc": "SHG-One Area Support Admin which can manage Multiple Groups in perticular Area",
+            "defaultWsAccessRights": 8977100123930185,
+            "defaultUiAccessRights": 61766165201944137
+        },
+        {
+            "roleId": 13,
+            "role": "Area Admin",
+            "roleCategory": "Admin",
+            "belongTo": "Area Admin",
+            "roleDesc": "SHG-One Area Super Admin which can manage Multiple Groups in perticular Area",
+            "defaultWsAccessRights": 8977100123930185,
+            "defaultUiAccessRights": 144115188075855433
+        },
+        {
+            "roleId": 14,
+            "role": "Super Area Support Admin",
+            "roleCategory": "Admin",
+            "belongTo": "Super Area Admin",
+            "roleDesc": "SHG-One Area Support Admin which can manage Multiple Groups in perticular Area",
+            "defaultWsAccessRights": 8977100123930185,
+            "defaultUiAccessRights": 61766165201944137
+        },
+        {
+            "roleId": 15,
+            "role": "Super Area Admin",
+            "roleCategory": "Admin",
+            "belongTo": "Super Area Admin",
+            "roleDesc": "SHG-One Area Super Admin which can manage Multiple Groups in perticular Area",
+            "defaultWsAccessRights": 8977100123930185,
+            "defaultUiAccessRights": 144115188075855433
+        },
+        {
+            "roleId": 16,
+            "role": "SHG-One Admin",
+            "roleCategory": "Admin",
+            "belongTo": "SHG-One Admin",
+            "roleDesc": "SHG-One Admin which can manage Groups, Auditor Groups & SHG-One Area Admins in all Areas",
+            "defaultWsAccessRights": 17984299378671177,
+            "defaultUiAccessRights": 144115188075855425
+        },
+        {
+            "roleId": 17,
+            "role": "Super Admin",
+            "roleCategory": "Admin",
+            "belongTo": "SHG-One Admin",
+            "roleDesc": "SHG-One Super Admin",
+            "defaultWsAccessRights": 9223372036854775807,
+            "defaultUiAccessRights": 9223372036854775807
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "enumName": "LoanCalculation",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Reducing Interest",
+            "description": "Reducing Interest calculated for the tenure given"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Normal EMI",
+            "description": "Normal EMI calculated for the tenure given"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Fixed EMI",
+            "description": "Fixed given EMI based calculation for the Monthly Fixed EMI"
+        }
+    ]
+}

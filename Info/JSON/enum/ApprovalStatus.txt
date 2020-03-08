@@ -1,0 +1,40 @@
+{
+    "enumName": "ApprovalStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Draft",
+            "description": "Request is Saved as Draft and not Submitted"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Submitted",
+            "description": "Request is Submitted"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Under Review",
+            "description": "Request is Under Review"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Approved",
+            "description": "Request is Approved"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Rejected",
+            "description": "Request is Rejected as not satisfying criteria"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "On Hold",
+            "description": "Request is put On Hold for further consideration"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Sent Back",
+            "description": "Request is Sent Back to resubmission after missing updates"
+        }
+    ]
+}

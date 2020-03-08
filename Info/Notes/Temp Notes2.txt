@@ -1,0 +1,249 @@
+GET_ALL_ACTIVE_ITEM_TAG_BY_TYPE
+GET_ACTIVE_ITEM_TAG_BY_STOCK_TYPE
+GET_ACTIVE_ITEM_TAG_BY_BRAND_TYPE
+MARK_ITEM_TAGS_PRINTED
+
+GET
+/v1/get_all_active_item_tag_by_type
+/v1/get_active_item_tag_by_stock_type/{stockTypeId}
+/v1/get_active_item_tag_by_brand/{brandName}
+
+POST
+/v1/mark_item_tags_printed
+
+
+
+/member/v1/all_member_search_by_name/{lang}/{groupAcNo}/{name}
+MemberSearchInfo
+
+p_hub_ac:
+	current_stock_discount_am
+	current_stock_unsettled_am
+	current_stock_discount_no
+	current_stock_unsettled_no
+
+	mh_total_stock_sold_discount_am
+	mh_current_stock_discount_am
+	mh_current_stock_unsettled_am
+	mh_total_stock_sold_discount_no
+	mh_current_stock_discount_no
+	mh_current_stock_unsettled_no
+
+	lh_total_stock_sold_discount_am
+	lh_current_stock_discount_am
+	lh_current_stock_unsettled_am
+	lh_total_stock_sold_discount_no
+	lh_current_stock_discount_no
+	lh_current_stock_unsettled_no
+
+	slh_total_stock_sold_discount_am
+	slh_current_stock_discount_am
+	slh_current_stock_unsettled_am
+	slh_total_stock_sold_discount_no
+	slh_current_stock_discount_no
+	slh_current_stock_unsettled_no
+
+	se_total_stock_sold_discount_am
+	se_current_stock_discount_am
+	se_current_stock_unsettled_am
+	se_total_stock_sold_discount_no
+	se_current_stock_discount_no
+	se_current_stock_unsettled_no
+
+	mr_total_stock_sold_discount_am
+	mr_current_stock_discount_am
+	mr_current_stock_unsettled_am
+	mr_total_stock_sold_discount_no
+	mr_current_stock_discount_no
+	mr_current_stock_unsettled_no
+
+p_m_ac:
+	current_stock_discount_am
+	current_stock_unsettled_am
+	current_stock_discount_no
+	current_stock_unsettled_no
+
+	total_stock_sold_discount_am
+	total_stock_sold_discount_no
+
+
+	this_month_stock_sold_discount_am
+	this_month_stock_sold_discount_no
+
+	last_month_stock_sold_discount_am
+	last_month_stock_sold_discount_no
+
+
+	
+	
+TODO - 19/04/16
+--------------------------------------
+1 - getTag call
+2 - getProductCategory
+3 - commit
+--------------------------------------
+Todos:
+1 - Test ItemTag APIs
+2 - Add Visit Pay API
+
+
+stock_tx_type
+	tx_for		
+	
+p_m_ac
+	total_collected_am
+	total_paid_collected_am
+	current_collected_am
+
+----- 25/04/16
+p_hub_ac:
+	mh_total_collected_am
+	mh_total_paid_collected_am
+	mh_current_collected_am
+
+	lh_total_collected_am
+	lh_total_paid_collected_am
+	lh_current_collected_am
+
+	slh_total_collected_am
+	slh_total_paid_collected_am
+	slh_current_collected_am
+
+	se_total_collected_am
+	se_total_paid_collected_am
+	se_current_collected_am
+
+	mr_registration_paid_am
+	mr_registration_pending_am
+	mr_deposit_paid_am
+	mr_deposit_pending_am
+	mr_deposit_return_am
+	mr_credit_limit_am
+	mr_sold_paid_am
+	mr_sold_pending_am
+	mr_paid_interest_penalty_am
+	mr_pending_interest_penalty_am
+
+p_m_ac:
+	mr_status_id
+	mr_type_id
+
+mr_status:
+	mr_status_id
+	mr_status
+	description
+	next_status
+	
+mr_type:
+	mr_type_id
+	mr_type
+	description
+	registration_fee
+	deposit_credit_multiplier
+	
+	
+Update Brand & StockType
+totalPurchaseAm;
+totalMrPurchaseAm; --> totalStockAm
+totalMrBalanceAm; - delete
+	
+currentOrderedStockAm
+currentDeliveredStockAm
+currentToStockStockAm
+currentCreatedStockAm
+currentStockAm
+currentOrderedStockNo
+currentDeliveredStockNo
+currentToStockStockNo
+currentCreatedStockNo
+currentStockNo
+
+
+Requested
+Expected
+Scheduled
+Unscheduled
+Started
+Ended
+Auto Closed
+Not Available
+Missed
+Canceled
+
+Scheduled MR Visit
+Requested MR Visit
+Delivery MR Visit
+Feedback MR Visit
+Special MR Visit
+MR Pitch Visit
+Opening MR Account
+Closing MR Account
+SE Account
+Sub Local HUB
+Local HUB
+
+Created
+Printed
+
+
+p_hub_ac:
+	
+p_invoice:
+	expected_delivery_ts
+	lr_slips
+	
+mr_visit:
+	visit_status_id
+	visit_type_id 	-type
+	scheduled_ts
+	latest_update_ts
+	
+tag_status
+	tag_status_id
+	tag_status
+	description
+	next_status	
+	
+visit_status
+	visit_status_id
+	visit_status
+	description
+	next_status
+	
+visit_type
+	visit_type_id
+	visit_type
+	visit_for
+	description
+	
+item_tag
+	item_tag_id
+	stock_item_id
+	stock_type_id
+	tag_status_id
+	stock_type_name
+	brand_name
+	mrp_price_am
+	dis_mrp_price_am
+	discount_per
+	created_ts
+	printed_ts
+
+District:
+Admin	Udaan 	Udaan		UD01
+
+GroupType
+
+Udaan Admin		Admin				
+Mega HUB		HUB
+Local HUB		HUB
+Vendor			Vendor
+Micro Retailer	Business Partner
+Sales Executive Operation Team
+
+Udaan Admin				Admin	 		Udaan Admin	
+Mega HUB Manager		Manager			Mega HUB
+Local HUB Manager		Manager			Local HUB
+Micro Retailer			Micro Retailer	Micro Retailer
+Sales Executive			Sales Executive	Sales Executive
+

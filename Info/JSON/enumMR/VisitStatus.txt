@@ -1,0 +1,65 @@
+{
+  "statusName": "VisitStatus",
+  "statusValues": [
+    {
+      "statusIndex": 1,
+      "statusValue": "Requested",
+      "description": "Visit is Requested!",
+      "nextStatus": "Scheduled;Canceled"
+    },
+    {
+      "statusIndex": 2,
+      "statusValue": "Expected",
+      "description": "Visit is Expected!",
+      "nextStatus": "Scheduled;Canceled"
+    },
+    {
+      "statusIndex": 3,
+      "statusValue": "Scheduled",
+      "description": "Visit is Scheduled!",
+      "nextStatus": "Started;Not Available;Canceled"
+    },
+    {
+      "statusIndex": 4,
+      "statusValue": "Unscheduled",
+      "description": "Visit is Unscheduled!",
+      "nextStatus": "Started;Not Available;Canceled"
+    },
+    {
+      "statusIndex": 5,
+      "statusValue": "Started",
+      "description": "Visit is Started!",
+      "nextStatus": "Ended;Auto Closed"
+    },
+    {
+      "statusIndex": 6,
+      "statusValue": "Ended",
+      "description": "Visit is properly Ended!",
+      "nextStatus": ""
+    },
+    {
+      "statusIndex": 7,
+      "statusValue": "Auto Closed",
+      "description": "Visit is not properly Ended, thus Auto Closed!",
+      "nextStatus": ""
+    },
+    {
+      "statusIndex": 8,
+      "statusValue": "Not Available",
+      "description": "Visit Owner was Not Available!",
+      "nextStatus": "Scheduled;Started;Canceled"
+    },
+    {
+      "statusIndex": 9,
+      "statusValue": "Missed",
+      "description": "Visit was Missed by MR!",
+      "nextStatus": "Scheduled;Started;Canceled"
+    },
+    {
+      "statusIndex": 10,
+      "statusValue": "Canceled",
+      "description": "Visit is Canceled!",
+      "nextStatus": ""
+    }
+  ]
+}

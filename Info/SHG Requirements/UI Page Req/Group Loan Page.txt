@@ -1,0 +1,65 @@
+Group Loan Page:
+
+1 - Select - Bank Profile (Dialog)
+
+2 - Select Or Add - Group Bank Loan Account (Dialog) (Add Bank Account - /group/v1/add_group_bank_accounts)
+
+3 - Add Loan Account Name (Edit box)
+
+4 - Loan Amount	(Edit box)
+
+5 - Interest Rate (Should be copied from Bank Profile - Loan Interest; but should be editable) (Edit box)
+
+6 - Select - Fund Type (Dropdown)
+
+7 - Select - Computation Type	(Dropdown)
+
+8 - Loan Processing Fee (Should be copied from Bank Profile - Loan Processing Fee; but should be editable) Edit box)
+
+9 - Other Bank Changes in Rupees (Edit box)
+
+10 - No of Installments (Edit box)
+
+11 - Fixed EMI  (Edit box)
+
+12 - Due Day of Month (Should be copied from Group Rules due date; but should be editable) (Edit box)
+
+13 - EMI Start Date  (Date Picker)
+
+14 - Development Plan - (Text Feild)
+
+15 - Remarks	(Text Feild)
+
+16 - Attach Development Plan + Docs  
+
+Calls for:
+Plan - /gloan/v1/loan_planning
+Apply - /gloan/v1/group_loan_ac
+Approve - /gloan/v1/approve_group_loan_ac
+Get Avtivation Txs - /gloan/v1/txs_to_activate
+Activate - /gloan/v1/activate
+
+Data Update:
+GroupLoanAcREST.groupAcNo - Selected-Group-Ac	- R
+GroupLoanAcREST.bankGroupAcNo - BankProfileREST.bankProfileId	- R
+GroupLoanAcREST.loanBankAcNo - Loan-Ac.bankAccountNo	- R
+GroupLoanAcREST.loanType - Fund Type	- R
+GroupLoanAcREST.loanCalculation - Loan Calculation	- R
+GroupLoanAcREST.loanSource - "Bank"	- O
+GroupLoanAcREST.loanAcName - Loan Account Name	- R
+GroupLoanAcREST.approvedByMember - Current-logged-in-member	- R
+GroupLoanAcREST.principle - Loan Amount	- R
+GroupLoanAcREST.pendingPrinciple - Loan Amount	- R
+GroupLoanAcREST.paidInterest - 0
+GroupLoanAcREST.projectedInterest - LoanEMIPlan.totalInterest	- R
+GroupLoanAcREST.installment - totalInterest.fixedEMI	- R
+GroupLoanAcREST.preEmiInterest - totalInterest.preEMI	- O
+GroupLoanAcREST.pendingInterestDue - 0
+GroupLoanAcREST.rateOfInterest - Rate of Interest	- R
+GroupLoanAcREST.startupNoOfInst - totalInterest.noOfStartUpEMI	- O
+GroupLoanAcREST.expNoOfInst - totalInterest.noOfEMIs	- R
+GroupLoanAcREST.requestedDate - totalInterest.requestedDate	- R
+GroupLoanAcREST.instStartDate - totalInterest.startDate	- O
+GroupLoanAcREST.expCompletionDate - totalInterest.expCompletionDate	- O
+GroupLoanAcREST.developmentPlan - Development Plan	- O
+GroupLoanAcREST.statusMessage - Remarks	- O

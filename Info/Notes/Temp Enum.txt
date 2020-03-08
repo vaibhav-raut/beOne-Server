@@ -1,0 +1,103 @@
+
+Bluedio DF200 Bluetooth Headset
+https://www.pc-risk.com/remove-trezaa
+
+InvoiceStatus
+ItemStatus
+LotStatus
+PaymentType
+PkgStatus
+PkgType
+ShipmentStatus
+StockTxType
+StockTypeStatus
+
+PCategoryEnum
+ProductPricingEnum
+
+VisitStatus
+VisitType
+
+
+InvoiceStatus ************************
+Draft
+Quotation
+Order
+Processing
+Shipped
+Delivered
+To Stock
+Complete
+
+ItemStatus ************************
+Created
+HUB Stocked
+SE Stocked
+MR Stocked
+Sold
+Damaged
+Damage Return
+Damage Sold
+
+LotStatus ************************
+Draft
+Quotation
+Order
+Processing
+Shipped
+Delivered
+To Stock
+Stocked
+Sold Out
+
+PaymentType ************************
+
+
+PkgStatus ************************
+
+
+PkgType ************************
+
+
+ShipmentStatus ************************
+
+
+StockTxType ************************
+Created
+Stock Verified
+Given
+Returned
+Sold
+Check
+Damage Returned
+
+StockTypeStatus ************************
+Created
+Stocked
+Stocked Closed
+Sold Out
+Sold Out Closed
+
+PCategory ************************
+
+
+ProductPricing ************************
+
+VisitStatus ************************
+Draft
+Started
+Completed
+Paused
+Cancelled
+
+VisitType ************************
+Introduction
+Joining Pitch
+Registration
+First Given
+Sold Collection
+Collection
+Complete
+Survey
+
+

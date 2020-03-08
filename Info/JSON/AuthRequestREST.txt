@@ -1,0 +1,11 @@
+{
+	"memberDistrictCode": "TS01",
+	"memberNo": 1,
+	"groupDistrictCode": "TS01",
+	"selectedGroupNo": 1,
+	"groupNo": 1,
+	"passcode": "pass@123",
+	"role": "",
+	"accessToken": "",
+	"uiAccessCode": 0
+}

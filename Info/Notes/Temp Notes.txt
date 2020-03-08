@@ -1,0 +1,44 @@
+
+	private long brandId;
+	private String name;
+	private String description;
+	private String properties;
+	private String link;
+	private float performanceIndex;
+	private float returnIndex;
+	private float salesIndex;
+
+	private long stockTypeId;
+	private int stockStatusId;
+	private int categoryId;
+	private Brand brand;
+	private String name;
+	private String description;
+	private String properties;
+	private String pics;
+	private String link;
+	private float performanceIndex;
+	private float returnIndex;
+	private float salesIndex;
+
+
+	private long stockItemId;
+	private StockType stockType;
+	private Lot lot;
+	private SInvoice saleInvoice;
+	private int itemStatusId;
+	private Pkg pkg;
+	private PMAc owner;
+	private String name;
+	private String designNo;
+	private BigDecimal wsPrice;
+	private BigDecimal mrPrice;
+	private BigDecimal mrpPrice;
+	private BigDecimal soldPrice;
+	private BigDecimal mrSoldPrice;
+	private float discountPer;
+	private BigDecimal discountAm;
+	private float vatPer;
+	private BigDecimal vatAm;
+	private Date checkTs;
+	private int checkFlag;

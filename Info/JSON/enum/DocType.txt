@@ -1,0 +1,173 @@
+{
+    "enumName": "DocType",
+    "enumValues": [
+        {
+            "docTypeId": 1,
+            "docType": "Signed Application",
+            "docFor": "Member:Group:Loan",
+            "docCategory": "Application",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 2,
+            "docType": "Account Details",
+            "docFor": "Group",
+            "docCategory": "Application",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 3,
+            "docType": "Water Bill",
+            "docFor": "Member",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 4,
+            "docType": "Telephone Bill",
+            "docFor": "Member",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 5,
+            "docType": "Electricity Bill",
+            "docFor": "Member",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 6,
+            "docType": "Bank Statement",
+            "docFor": "Member:Group",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 7,
+            "docType": "Election ID Card",
+            "docFor": "Member",
+            "docCategory": "Address Proof:Identity Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 8,
+            "docType": "Proof of Gas Connection",
+            "docFor": "Member",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 9,
+            "docType": "Passport",
+            "docFor": "Member",
+            "docCategory": "Address Proof:Identity Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 10,
+            "docType": "Ration Card",
+            "docFor": "Member",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 11,
+            "docType": "Aadhaar Card",
+            "docFor": "Member",
+            "docCategory": "Address Proof:Identity Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 12,
+            "docType": "PAN Card",
+            "docFor": "Member",
+            "docCategory": "Address Proof:Identity Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 13,
+            "docType": "Rent Agreement",
+            "docFor": "Member",
+            "docCategory": "Address Proof",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 14,
+            "docType": "Development Plan",
+            "docFor": "Loan",
+            "docCategory": "Development Plan",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 15,
+            "docType": "Bank Cheque",
+            "docFor": "Bank Account",
+            "docCategory": "Bank Document",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 16,
+            "docType": "Bank Passbook",
+            "docFor": "Bank Account",
+            "docCategory": "Bank Document",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 17,
+            "docType": "Bank Statement",
+            "docFor": "Bank Account",
+            "docCategory": "Bank Document",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 18,
+            "docType": "Miscellaneous",
+            "docFor": "Member:Group:Loan:Bank Account",
+            "docCategory": "Miscellaneous",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 19,
+            "docType": "SHG Declaration",
+            "docFor": "Member:Group:Loan:Bank Account",
+            "docCategory": "SHG Document",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 20,
+            "docType": "SHG Accounts",
+            "docFor": "Member:Group:Loan:Bank Account",
+            "docCategory": "SHG Document",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 21,
+            "docType": "SHG Form",
+            "docFor": "Group",
+            "docCategory": "Form",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 22,
+            "docType": "Member Form",
+            "docFor": "Member",
+            "docCategory": "Form",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 23,
+            "docType": "Member Loan Form",
+            "docFor": "Loan",
+            "docCategory": "Form",
+            "docDesc": ""
+        },
+        {
+            "docTypeId": 24,
+            "docType": "Expense Bills",
+            "docFor": "Transaction",
+            "docCategory": "Transaction",
+            "docDesc": ""
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+Account Statement:
+(This Page would combine old - Cash Book & Bank Book pages)
+API - /report/v1/account_book/{lang}/{groupAcNo}/{type}/{bankAcNo}/{startTime}/{endMonth}
+
+1 - From (date picker)
+2 - Till (dropdown - provided in List<String> - GroupREST.monthsAvaliable) (This would show - "As On Date"/"Dec - 2014"/"Nov - 2014"...)
+(GroupREST.monthsAvaliable would be returned in /group/v1/group_ac/{lang}/{groupAcNo} - this call will now also return all profile info; Thus this should be prefered call for all Group profile & accounts info)
+
+3 - Radio with Options "Cash" or "Bank" or "Joint" 
+
+If "Bank" is selected at 3
+4 - Show BankAccounts - in dropdown (Adding "All" option to top and default)
+
+5 - Highlight Row (Same as before) 
+Columns: "No of Transactions"/"No of Approved Transactions"/"Total Received Amount"/"Total Paid Amount"/"Opening Balance"/"Closing Balance"/"Balance Subjected To Clearing"
+
+6 - Transaction Table  (Same as before) 
+Columns: "Date"/"Transaction Id"/"Account No."/"Name"/"Transaction Type"/"Payment Mode"/"Received Amount"/"Paid Amount"/"Balance"/"Status"/"Approve / Reject"
+

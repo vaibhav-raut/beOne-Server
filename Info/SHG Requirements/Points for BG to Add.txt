@@ -1,0 +1,59 @@
+Points for BG to add on:
+1. Photo for each member 
+2. Logo of Bachat Gat 
+3. Convert Core member to Associate member and other way round (make sure Core Members not more than 20 at any given time)
+4. Rules options to be set:
+	a. Penalty management: 
+		1. Penalties Fee entry: Late Fee + Cheque Bouncing + Auto Debit Failure
+			i. Launch new pope up: add charges with check boxes (added by system) and make as Paid or Pending by Radio button
+			ii. Main window to add final paid or pending
+		2. None paid Penalties Fee to be deducted at the end of financial year 
+		3. Late fee: 
+			i. Late Fee start date
+			ii. Mandatory Amount or Optional 
+	b. Saving Interest Calculation:
+		i. Rate of Interest per month
+		ii. Calculation after Late entry
+		iii. Add Interest monthly or quarterly or yearly to saving amount
+	c. Loan Calculation:
+		i. Flat repayment
+		ii. Reducing repayment
+		iii. Minimum Months Interest for Foreclosure 
+		iV. Late Fee charges? 
+	d. Divided calculation:
+		i. If credit rating is poor that particular no - not to be qualified 
+		ii. If missed instalments for 3 months - not to be qualified 
+	e. Saving Missed:
+		i. Late Fee
+		ii. Interest pamelty
+	f. Loan/Project eligibility:
+		i. minimum 6 months from joining Or Loan amount less than Four times saved amount
+		ii. credit rating should be above Decided Value
+			a. if credit less that 90% then eligible for five times saved amount
+			b. if greater than or equal to 90% then eligible upto 10 times saved amount
+			c. if less than 80% then not eligible 
+	g. M - Credit Rating calculation:
+		No-Instalment - ((Missed-Instalment) + (0.5 * Late-Instalment)) / No-Instalment
+	h. BG - Credit Rating calculation:
+		Average credit ratings of all members
+	i. Profit sharing provisioning:
+		1. Education (2%)
+		2. Insurance (3%)
+		3. Management Expenses (25%)
+		4. Reserve Fund (5%)
+		5. Divided for Associate Member (15%)
+		6. Core group profit sharing (50%)
+	j. Profit sharing with Core Members modes:
+		1. Add to the saving amount (default)
+		2. Distribute at year end
+		
+5. Roles:
+	ADMIN
+	SUPPORT ADMIN
+	AUDITOR
+	SUB AUDITOR
+	GROUP ADMIN
+	GROUP SUPPORT ADMIN
+	GROUP ACCOUNTENT
+	CORE MEMBER
+	ASSOCIATE MEMBER

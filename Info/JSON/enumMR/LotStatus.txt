@@ -1,0 +1,65 @@
+{
+    "enumName": "LotStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Draft",
+            "description": "Lot is saved as Draft",
+            "nextStatus": "Quotation;Ordered;Cancelled"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Quotation",
+            "description": "Got Quotation for Invoice of the Lot",
+            "nextStatus": "Ordered;Cancelled"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Ordered",
+            "description": "Placed Ordered",
+            "nextStatus": "Processing;Shipped;Delivered;Cancelled"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Processing",
+            "description": "Order is Processing",
+            "nextStatus": "Shipped;Delivered;Cancelled"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Shipped",
+            "description": "Order is Shipped",
+            "nextStatus": "Delivered;Cancelled"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Delivered",
+            "description": "Order is Delivered",
+            "nextStatus": "To Stock;Stocked;Sold Out;Cancelled"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "To Stock",
+            "description": "To Stock",
+            "nextStatus": "Stocked;Cancelled"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Stocked",
+            "description": "Lot is Stocked",
+            "nextStatus": "Sold Out;Cancelled"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Sold Out",
+            "description": "Lot is Sold Out",
+            "nextStatus": ""
+        },
+        {
+            "enumIndex": 10,
+            "enumValue": "Cancelled",
+            "description": "Lot is Cancelled",
+            "nextStatus": ""
+        }
+    ]
+}

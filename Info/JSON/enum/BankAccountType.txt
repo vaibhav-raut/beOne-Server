@@ -1,0 +1,40 @@
+{
+    "enumName": "BankAccountType",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Saving Account",
+            "description": ""
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Loan Account",
+            "description": ""
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Investment Account",
+            "description": ""
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Project Account",
+            "description": ""
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Current Account",
+            "description": ""
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Fix Deposit Account",
+            "description": ""
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Over Draft Account",
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+	"loanCalculation": "Normal EMI",
+	"rateOfInterest": 20.0,
+	"principle": 10000.00,
+	"fixedEMI": 0.00,
+	"noOfEMIs": 60,
+	"startDate": "25/05/2014",
+	"dueDay": 10,
+	"preEMI": null,
+	"loanEMIs": null
+}

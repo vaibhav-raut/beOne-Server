@@ -1,0 +1,59 @@
+{
+    "enumName": "NameTitle",
+    "enumValues": [
+        {
+            "titleId": 1,
+            "lang": "English",
+            "title": "",
+            "gender": "Unknow"
+        },
+        {
+            "titleId": 2,
+            "lang": "English",
+            "title": "Shri",
+            "gender": "Male"
+        },
+        {
+            "titleId": 3,
+            "lang": "English",
+            "title": "Shrimati",
+            "gender": "Female"
+        },
+        {
+            "titleId": 4,
+            "lang": "English",
+            "title": "Sau",
+            "gender": "Female"
+        },
+        {
+            "titleId": 5,
+            "lang": "English",
+            "title": "Ku",
+            "gender": "Female"
+        },
+        {
+            "titleId": 6,
+            "lang": "English",
+            "title": "Mr",
+            "gender": "Male"
+        },
+        {
+            "titleId": 7,
+            "lang": "English",
+            "title": "Mrs",
+            "gender": "Female"
+        },
+        {
+            "titleId": 8,
+            "lang": "English",
+            "title": "Miss",
+            "gender": "Female"
+        },
+        {
+            "titleId": 9,
+            "lang": "English",
+            "title": "Dr",
+            "gender": "Unknow"
+        }
+    ]
+}

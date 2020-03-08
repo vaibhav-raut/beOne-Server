@@ -1,0 +1,78 @@
+Group Investment Page:
+
+1 - Select - Investment Type (Dropdown)
+	Options:
+		A - Project Development
+		B - Fix Deposit
+		C - Ivestment Account
+
+If B & C {
+2 - Select - Bank Profile (Dialog)
+
+3 - Select Or Add - Group Bank Investment Account (Dialog; Optional at Apply; Required for Approval)
+
+4 - Add Investment Account Name (Edit box)
+
+5 - Investment Amount	(Edit box)
+
+6 - Interest Rate 		(Edit box)
+
+7 - Other Bank Changes in Rupees (Edit box)
+
+8 - Start Date  (Date Picker)
+
+9 - Date Of Maturity  (Date Picker)
+
+9 - Projected Interest Amount (Edit box; pre calculated & not editable)
+}
+
+If A {
+3 - Select Or Add - Group Bank Investment Account (Dialog; Optional at Apply; Required for Approval)
+
+4 - Add Investment Account Name (Edit box)
+
+6 - Investment Amount	(Edit box)
+
+7 - Expected Earning (Edit box) 
+
+8 - Start Date  (Date Picker)
+
+9 - Expected Date Of Maturity  (Date Picker)
+
+10 - Projected Interest Rate (Auto computed)
+
+11 - Development Plan - (Text Feild)
+
+12 - Remarks	(Text Feild)
+}
+
+13 - Attach Development Plan + Docs  
+
+Calls for:
+If B & C {
+Plan - /group_invt/v1/invt_planning
+}
+Apply - /group_invt/v1/group_invt_ac
+Approve - /group_invt/v1/approve_group_invt_ac
+Get Avtivation Txs - /group_invt/v1/txs_to_activate
+Activate - /group_invt/v1/activate
+
+Data Update:
+	GroupInvtAcREST.groupAcNo - Selected-Group-Ac	GroupInvtAcREST.- R
+	GroupInvtAcREST.bankGroupAcNo - BankProfileREST.bankProfileId	GroupInvtAcREST.- R
+	GroupInvtAcREST.invtBankAcNo - Investment-Ac.bankAccountNo	GroupInvtAcREST.- R
+	GroupInvtAcREST.investmentType - Investment Type
+	GroupInvtAcREST.approvedByMember - Current-logged-in-member	GroupInvtAcREST.- R
+	GroupInvtAcREST.investmentNo - Account Number - R
+	GroupInvtAcREST.investmentAcName - Investment Account Name - R
+	GroupInvtAcREST.investmentDesc - Remarks - O
+	GroupInvtAcREST.invtAm - Investment Amount - R
+If B & C {
+	GroupInvtAcREST.projInterestAm - InvtPlan.projInterestAm - R
+} else {
+	GroupInvtAcREST.projInterestAm - Expected Earning - R
+}
+	GroupInvtAcREST.private Float interestRate - Interest Rate - R 
+	GroupInvtAcREST.requestedDate - Start Date - R
+	GroupInvtAcREST.maturityDate - Expected Date of Maturity - R
+	GroupInvtAcREST.developmentPlan - Development Plan - O

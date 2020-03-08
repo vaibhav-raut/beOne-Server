@@ -1,0 +1,13 @@
+{
+	"txId": 0,
+	"txType": "Registration Fee",
+	"slipType": "RECEIPT",
+	"slipNo": "1234",
+	"memberAcNo": 3000030001,
+	"groupAcNo": 300003,
+	"doneByMemberAcNo": 3000030002,
+	"amount": 100.00,
+	"paymentMode": "CASH",
+	"description": "Registration Fee for joining the group",
+	"paymentTs": 1397327400000
+}

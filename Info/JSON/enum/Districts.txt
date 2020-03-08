@@ -1,0 +1,309 @@
+{
+    "lang": "English",
+    "districtInfos": [
+        {
+            "districtId": 1,
+            "lang": "English",
+            "state": "Admin",
+            "division": "Admin",
+            "district": "Super Admin",
+            "districtCode": "AD01"
+        },
+        {
+            "districtId": 2,
+            "lang": "English",
+            "state": "Admin",
+            "division": "TEST",
+            "district": "TEST1",
+            "districtCode": "TS01"
+        },
+        {
+            "districtId": 3,
+            "lang": "English",
+            "state": "Admin",
+            "division": "TEST",
+            "district": "TEST2",
+            "districtCode": "TS02"
+        },
+        {
+            "districtId": 4,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nashik",
+            "district": "Ahmednagar",
+            "districtCode": "MH16"
+        },
+        {
+            "districtId": 5,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Amravati",
+            "district": "Akola",
+            "districtCode": "MH30"
+        },
+        {
+            "districtId": 6,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Amravati",
+            "district": "Amravati",
+            "districtCode": "MH27"
+        },
+        {
+            "districtId": 7,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Aurangabad",
+            "districtCode": "MH20"
+        },
+        {
+            "districtId": 8,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Beed",
+            "districtCode": "MH23"
+        },
+        {
+            "districtId": 9,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nagpur",
+            "district": "Bhandara",
+            "districtCode": "MH36"
+        },
+        {
+            "districtId": 10,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Amravati",
+            "district": "Buldhana",
+            "districtCode": "MH28"
+        },
+        {
+            "districtId": 11,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nagpur",
+            "district": "Chandrapur",
+            "districtCode": "MH34"
+        },
+        {
+            "districtId": 12,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nashik",
+            "district": "Dhule",
+            "districtCode": "MH18"
+        },
+        {
+            "districtId": 13,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nagpur",
+            "district": "Gadchiroli",
+            "districtCode": "MH33"
+        },
+        {
+            "districtId": 14,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nagpur",
+            "district": "Gondia",
+            "districtCode": "MH35"
+        },
+        {
+            "districtId": 15,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Hingoli",
+            "districtCode": "MH38"
+        },
+        {
+            "districtId": 16,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nashik",
+            "district": "Jalgaon",
+            "districtCode": "MH19"
+        },
+        {
+            "districtId": 17,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Jalna",
+            "districtCode": "MH21"
+        },
+        {
+            "districtId": 18,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Pune",
+            "district": "Kolhapur",
+            "districtCode": "MH09"
+        },
+        {
+            "districtId": 19,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Latur",
+            "districtCode": "MH24"
+        },
+        {
+            "districtId": 20,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Konkan",
+            "district": "Mumbai City",
+            "districtCode": "MH01"
+        },
+        {
+            "districtId": 21,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Konkan",
+            "district": "Mumbai Suburban",
+            "districtCode": "MH05"
+        },
+        {
+            "districtId": 22,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nagpur",
+            "district": "Nagpur",
+            "districtCode": "MH31"
+        },
+        {
+            "districtId": 23,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Nanded",
+            "districtCode": "MH26"
+        },
+        {
+            "districtId": 24,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nashik",
+            "district": "Nandurbar",
+            "districtCode": "MH39"
+        },
+        {
+            "districtId": 25,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nashik",
+            "district": "Nashik",
+            "districtCode": "MH15"
+        },
+        {
+            "districtId": 26,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Osmanabad",
+            "districtCode": "MH25"
+        },
+        {
+            "districtId": 27,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Aurangabad",
+            "district": "Parbhani",
+            "districtCode": "MH22"
+        },
+        {
+            "districtId": 28,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Pune",
+            "district": "Pune",
+            "districtCode": "MH12"
+        },
+        {
+            "districtId": 29,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Konkan",
+            "district": "Raigad",
+            "districtCode": "MH06"
+        },
+        {
+            "districtId": 30,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Konkan",
+            "district": "Ratnagiri",
+            "districtCode": "MH08"
+        },
+        {
+            "districtId": 31,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Pune",
+            "district": "Sangli",
+            "districtCode": "MH10"
+        },
+        {
+            "districtId": 32,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Pune",
+            "district": "Satara",
+            "districtCode": "MH11"
+        },
+        {
+            "districtId": 33,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Konkan",
+            "district": "Sindhudurg",
+            "districtCode": "MH07"
+        },
+        {
+            "districtId": 34,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Pune",
+            "district": "Solapur",
+            "districtCode": "MH13"
+        },
+        {
+            "districtId": 35,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Konkan",
+            "district": "Thane",
+            "districtCode": "MH04"
+        },
+        {
+            "districtId": 36,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Nagpur",
+            "district": "Wardha",
+            "districtCode": "MH32"
+        },
+        {
+            "districtId": 37,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Amravati",
+            "district": "Washim",
+            "districtCode": "MH37"
+        },
+        {
+            "districtId": 38,
+            "lang": "English",
+            "state": "Maharashtra",
+            "division": "Amravati",
+            "district": "Yavatmal",
+            "districtCode": "MH29"
+        }
+    ]
+}

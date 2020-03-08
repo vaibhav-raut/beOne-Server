@@ -1,0 +1,60 @@
+{
+    "enumName": "TxTodoStatus",
+    "enumValues": [
+        {
+            "enumIndex": 1,
+            "enumValue": "Draft",
+            "description": "Todo Transaction is saved as Draft"
+        },
+        {
+            "enumIndex": 2,
+            "enumValue": "Todo",
+            "description": "Todo Transaction is Todo state"
+        },
+        {
+            "enumIndex": 3,
+            "enumValue": "Done",
+            "description": "Todo Transaction is Complete"
+        },
+        {
+            "enumIndex": 4,
+            "enumValue": "Undone",
+            "description": "Todo Transaction is waiting for Payment Tobe Done"
+        },
+        {
+            "enumIndex": 5,
+            "enumValue": "Over Due",
+            "description": "Todo Transaction is Over Due as it missed its Due Date"
+        },
+        {
+            "enumIndex": 6,
+            "enumValue": "Missed",
+            "description": "Todo Transaction is Missed as it was done in current month"
+        },
+        {
+            "enumIndex": 7,
+            "enumValue": "Approved",
+            "description": "Related Transaction is Approved"
+        },
+        {
+            "enumIndex": 8,
+            "enumValue": "Rejected",
+            "description": "Related Transaction is Rejected"
+        },
+        {
+            "enumIndex": 9,
+            "enumValue": "Auto Approved",
+            "description": "Transaction is Auto Approved by the System at the End of the Month"
+        },
+        {
+            "enumIndex": 10,
+            "enumValue": "Auto Rejected",
+            "description": "Transaction is Auto Rejected, as Incomplete by the System at the End of the Month"
+        },
+        {
+            "enumIndex": 11,
+            "enumValue": "Previous Missed",
+            "description": "Todo Transaction is previously Missed and carried forward"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+Access Management Page:
+	- Show this Tab when: 
+		- If user group Type = SHG-One Admin
+		- For other group types - select some other group (Other Users should not be able change Roles within its own group)
+
+1 - Search Member: (Normal Member Search API)
+2 - Get Member Parent Access Info (API - GET: /auth/v1/member_parent_access)
+		
+Section A - Change Role in Parent Group (API - POST: /auth/v1/update_member_parent_access)
+	- Applicable to all members 
+	- Give options of possible Roles
+	- Option to Lock the User
+
+Section B - Access management with other groups
+	B.1 - Check Access (API - POST: /auth/v1/search_member_access_to_group)
+		- Search Group - special API to return - access Role of the Member with the specific Group
+If "No Access" is present then:
+	B.2 - Add Access (API - POST: /auth/v1/update_member_access_to_group)
+		- "Add" button to add Member Role to Group
+If "Access" is present then:
+	B.2.1 - Update Access (API - POST: /auth/v1/update_member_access_to_group)
+		- "Update" button to Update Member Role to Group
+	B.2.2 - Remove Access (API - POST: /auth/v1/remove_member_access_to_group)
+		- "Remove" button to Remove Member Role to Group
+

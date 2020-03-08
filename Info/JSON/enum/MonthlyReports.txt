@@ -1,0 +1,225 @@
+{
+    "lang": "English",
+    "monthlyReports": [
+        {
+            "monthlyReportId": 1,
+            "reportName": "Trial Balance Sheet",
+            "reportDisplayName": "Trial Balance Sheet",
+            "reportDesc": "Trial Balance Sheet of the Group",
+            "monthlyReportSheets": [
+                {
+                    "monthlyReportSheetId": 1,
+                    "reportSheetName": "Receipts BANK",
+                    "reportSheetTopTitle": "Receipts",
+                    "reportSheetBottomTitle": "Value of All Receipts",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All the amount Reveived by Group",
+                    "reportSheetFormula": "monthly_g_ac:saved_am:Total Saving;monthly_g_ac:rec_int_on_loan_am:Interest Earned On Loans;monthly_g_ac:p_rec_int_on_loan_am:Earnings On SHG Projects;monthly_g_ac:rec_int_on_fix_deposit_am:Interest Earned On Fixed Deposit;monthly_g_ac:rec_int_on_other_inv_am:Interest Earned On Other Investments;monthly_g_ac:bank_loan_am:Bank Loan;monthly_g_ac:fee_penalty_am:Penalty - Fees - Charges;monthly_g_ac:int_en_on_saving_ac_am:Interest Earned On Bank Saving Accounts;monthly_g_ac:rec_loan_am:Recovered Loans;monthly_g_ac:p_rec_loan_am:Recovered SHG Projects Loan;monthly_g_ac:rec_fix_deposit_am:Recovered Fixed Deposit;monthly_g_ac:rec_other_inv_am:Recovered Other Investments;"
+                },
+                {
+                    "monthlyReportSheetId": 2,
+                    "reportSheetName": "Payments BANK",
+                    "reportSheetTopTitle": "Payments",
+                    "reportSheetBottomTitle": "Value of All Payments",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All Payments done by the Group",
+                    "reportSheetFormula": "monthly_g_ac:loan_am:Total Loan;monthly_g_ac:p_loan_am:SHG Project Loan;monthly_g_ac:fix_deposit_inv_am:Fix Deposit Investments;monthly_g_ac:other_inv_am:Other Investments;monthly_g_ac:paid_bank_loan_am:Paid Bank Loans;monthly_g_ac:paid_int_on_bank_loan_am:Interest Paid on Bank Loans;monthly_g_ac:returned_saved_am:Returned Savings;monthly_g_ac:returned_int_en_am:Returned Interest on Savings;monthly_g_ac:bank_balance_am:Bank Balance;monthly_g_ac:expenses_am:Expenses;monthly_g_ac:profit_share_paid_am:Profit Share Paid;monthly_g_ac:divided_paid_am:Divided Paid;monthly_g_ac:cash_in_hand_am:Cash In Hand;"
+                },
+                {
+                    "monthlyReportSheetId": 3,
+                    "reportSheetName": "Receipts DETAILED",
+                    "reportSheetTopTitle": "Receipts",
+                    "reportSheetBottomTitle": "Value of All Receipts",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All the amount Reveived by Group",
+                    "reportSheetFormula": "monthly_g_ac:saved_am:Total Saving;monthly_g_ac:rec_int_on_loan_am:Interest Earned On Loans;monthly_g_ac:p_rec_int_on_loan_am:Earnings On SHG Projects;monthly_g_ac:rec_int_on_fix_deposit_am:Interest Earned On Fixed Deposit;monthly_g_ac:rec_int_on_other_inv_am:Interest Earned On Other Investments;monthly_g_ac:bank_loan_am:Bank Loan;monthly_g_ac:fee_penalty_am:Penalty - Fees - Charges;monthly_g_ac:int_en_on_saving_ac_am:Interest Earned On Bank Saving Accounts;monthly_g_ac:rec_loan_am:Recovered Loans;monthly_g_ac:p_rec_loan_am:Recovered SHG Projects Loan;monthly_g_ac:rec_fix_deposit_am:Recovered Fixed Deposit;monthly_g_ac:rec_other_inv_am:Recovered Other Investments;"
+                },
+                {
+                    "monthlyReportSheetId": 4,
+                    "reportSheetName": "Payments DETAILED",
+                    "reportSheetTopTitle": "Payments",
+                    "reportSheetBottomTitle": "Value of All Payments",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All Payments done by the Group",
+                    "reportSheetFormula": "monthly_g_ac:loan_am:Total Loan;monthly_g_ac:p_loan_am:SHG Project Loan;monthly_g_ac:fix_deposit_inv_am:Fix Deposit Investments;monthly_g_ac:other_inv_am:Other Investments;monthly_g_ac:paid_bank_loan_am:Paid Bank Loans;monthly_g_ac:paid_int_on_bank_loan_am:Interest Paid on Bank Loans;monthly_g_ac:returned_saved_am:Returned Savings;monthly_g_ac:returned_int_en_am:Returned Interest on Savings;monthly_g_ac:bank_balance_am:Bank Balance;monthly_g_ac:expenses_am:Expenses;monthly_g_ac:profit_share_paid_am:Profit Share Paid;monthly_g_ac:divided_paid_am:Divided Paid;monthly_g_ac:cash_in_hand_am:Cash In Hand;"
+                }
+            ]
+        },
+        {
+            "monthlyReportId": 2,
+            "reportName": "Profit & Loss Statement",
+            "reportDisplayName": "Profit & Loss Statement",
+            "reportDesc": "Profit & Loss Statement of the Group",
+            "monthlyReportSheets": [
+                {
+                    "monthlyReportSheetId": 5,
+                    "reportSheetName": "Profits BANK",
+                    "reportSheetTopTitle": "Profits",
+                    "reportSheetBottomTitle": "Value of All Receipts",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All the amount Profits for the Group",
+                    "reportSheetFormula": "monthly_g_ac:rec_int_on_loan_am:Interest Earned On Loans;monthly_g_ac:p_rec_int_on_loan_am:Earning On SHG Projects;monthly_g_ac:rec_int_on_fix_deposit_am:Interest Earned On Fixed Deposit;monthly_g_ac:rec_int_on_other_inv_am:Interest Earned On Other Investments;monthly_g_ac:int_en_on_saving_ac_am:Interest Earned On Bank Saving Accounts;monthly_g_ac:fee_penalty_am:Penalty - Fees - Charges;"
+                },
+                {
+                    "monthlyReportSheetId": 6,
+                    "reportSheetName": "Losses BANK",
+                    "reportSheetTopTitle": "Losses",
+                    "reportSheetBottomTitle": "Value of All Losses",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All the amount Loss for the Group",
+                    "reportSheetFormula": "monthly_g_ac:expenses_am:Expenses;monthly_g_ac:paid_int_on_bank_loan_am:Interest Paid on Bank Loans;monthly_g_ac:returned_int_en_am:Returned Interest on Savings;monthly_g_ac:profit_share_paid_am:Profit Share Paid;monthly_g_ac:divided_paid_am:Divided Paid;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_am:Net Profit;"
+                },
+                {
+                    "monthlyReportSheetId": 7,
+                    "reportSheetName": "Profits DETAILED",
+                    "reportSheetTopTitle": "Profits",
+                    "reportSheetBottomTitle": "Value of All Profits",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All the amount Profit for the Group",
+                    "reportSheetFormula": "monthly_g_ac:rec_int_on_loan_am:Interest Earned On Loans;monthly_g_ac:p_rec_int_on_loan_am:Earning On SHG Projects;monthly_g_ac:rec_int_on_fix_deposit_am:Interest Earned On Fixed Deposit;monthly_g_ac:rec_int_on_other_inv_am:Interest Earned On Other Investments;monthly_g_ac:int_en_on_saving_ac_am:Interest Earned On Bank Saving Accounts;monthly_g_ac:fee_penalty_am:Penalty - Fees - Charges;"
+                },
+                {
+                    "monthlyReportSheetId": 8,
+                    "reportSheetName": "Losses DETAILED",
+                    "reportSheetTopTitle": "Losses",
+                    "reportSheetBottomTitle": "Value of All Losses",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All the amount Loss for the Group",
+                    "reportSheetFormula": "monthly_g_ac:expenses_am:Expenses;monthly_g_ac:paid_int_on_bank_loan_am:Interest Paid on Bank Loans;monthly_g_ac:returned_int_en_am:Returned Interest on Savings;monthly_g_ac:profit_share_paid_am:Profit Share Paid;monthly_g_ac:divided_paid_am:Divided Paid;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_am:Net Profit;"
+                }
+            ]
+        },
+        {
+            "monthlyReportId": 3,
+            "reportName": "Balance Sheet",
+            "reportDisplayName": "Balance Sheet",
+            "reportDesc": "Balance Sheet of the Group",
+            "monthlyReportSheets": [
+                {
+                    "monthlyReportSheetId": 9,
+                    "reportSheetName": "Assets BANK",
+                    "reportSheetTopTitle": "Assets",
+                    "reportSheetBottomTitle": "Value of All Assets",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All Assets of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_loan_am:Outstanding Loan;monthly_g_ac:outstanding_p_loan_am:Outstanding SHG Project Loan;monthly_g_ac:outstanding_fix_deposit_am:Fix Deposit Investments;monthly_g_ac:outstanding_other_inv_am:Other Investments;monthly_g_ac:bank_balance_am:Bank Balance;monthly_g_ac:cash_in_hand_am:Cash In Hand;monthly_g_ac:credit_on_bank_loan_am:Credit Surplus on Bank Loan;"
+                },
+                {
+                    "monthlyReportSheetId": 10,
+                    "reportSheetName": "Liabilities BANK",
+                    "reportSheetTopTitle": "Liabilities",
+                    "reportSheetBottomTitle": "Value of All Liabilities",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All Liabilities of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_saved_am:Outstanding Saving;monthly_g_ac:outstanding_bank_loan_am:Outstanding Bank Loan;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_am:Net Profit;"
+                },
+                {
+                    "monthlyReportSheetId": 11,
+                    "reportSheetName": "Assets DETAILED",
+                    "reportSheetTopTitle": "Assets",
+                    "reportSheetBottomTitle": "Value of All Assets",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All Assets of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_loan_am:Outstanding Loan;monthly_g_ac:outstanding_p_loan_am:Outstanding SHG Project Loan;monthly_g_ac:outstanding_fix_deposit_am:Fix Deposit Investments;monthly_g_ac:outstanding_other_inv_am:Other Investments;monthly_g_ac:bank_balance_am:Bank Balance;monthly_g_ac:cash_in_hand_am:Cash In Hand;monthly_g_ac:credit_on_bank_loan_am:Credit Surplus on Bank Loan;"
+                },
+                {
+                    "monthlyReportSheetId": 12,
+                    "reportSheetName": "Liabilities DETAILED",
+                    "reportSheetTopTitle": "Liabilities",
+                    "reportSheetBottomTitle": "Value of All Liabilities",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All Liabilities of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_saved_am:Outstanding Saving;monthly_g_ac:outstanding_bank_loan_am:Outstanding Bank Loan;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_am:Net Profit;"
+                }
+            ]
+        },
+        {
+            "monthlyReportId": 4,
+            "reportName": "Profit & Loss Statement Proj",
+            "reportDisplayName": "Profit & Loss Statement (Projected)",
+            "reportDesc": "Projected Profit & Loss Statement of the Group",
+            "monthlyReportSheets": [
+                {
+                    "monthlyReportSheetId": 13,
+                    "reportSheetName": "Profits BANK",
+                    "reportSheetTopTitle": "Profits",
+                    "reportSheetBottomTitle": "Value of All Receipts",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All the amount Profits for the Group",
+                    "reportSheetFormula": "monthly_g_ac:rec_int_on_loan_am:Interest Earned On Loans;monthly_g_ac:p_rec_int_on_loan_am:Earning On SHG Projects;monthly_g_ac:rec_int_on_fix_deposit_am:Interest Earned On Fixed Deposit;monthly_g_ac:rec_int_on_other_inv_am:Interest Earned On Other Investments;monthly_g_ac:int_en_on_saving_ac_am:Interest Earned On Bank Saving Accounts;monthly_g_ac:fee_penalty_am:Penalty - Fees - Charges;monthly_g_ac:proj_int_on_loan_am:Projected Interest On Loan;monthly_g_ac:p_proj_int_on_loan_am:Projected Earnings On SHG Project;monthly_g_ac:proj_int_on_fix_deposit_am:Projected Earnings On Fix Deposit;monthly_g_ac:proj_int_on_other_inv_am:Projected Earnings On Other Investments;"
+                },
+                {
+                    "monthlyReportSheetId": 14,
+                    "reportSheetName": "Losses BANK",
+                    "reportSheetTopTitle": "Losses",
+                    "reportSheetBottomTitle": "Value of All Losses",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All the amount Loss for the Group",
+                    "reportSheetFormula": "monthly_g_ac:expenses_am:Expenses;monthly_g_ac:paid_int_on_bank_loan_am:Interest Paid on Bank Loans;monthly_g_ac:returned_int_en_am:Returned Interest on Savings;monthly_g_ac:profit_share_paid_am:Profit Share Paid;monthly_g_ac:divided_paid_am:Divided Paid;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_proj_am:Net Profit Projected;"
+                },
+                {
+                    "monthlyReportSheetId": 15,
+                    "reportSheetName": "Profits DETAILED",
+                    "reportSheetTopTitle": "Profits",
+                    "reportSheetBottomTitle": "Value of All Profits",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All the amount Profit for the Group",
+                    "reportSheetFormula": "monthly_g_ac:rec_int_on_loan_am:Interest Earned On Loans;monthly_g_ac:p_rec_int_on_loan_am:Earning On SHG Projects;monthly_g_ac:rec_int_on_fix_deposit_am:Interest Earned On Fixed Deposit;monthly_g_ac:rec_int_on_other_inv_am:Interest Earned On Other Investments;monthly_g_ac:int_en_on_saving_ac_am:Interest Earned On Bank Saving Accounts;monthly_g_ac:fee_penalty_am:Penalty - Fees - Charges;monthly_g_ac:proj_int_on_loan_am:Projected Interest On Loan;monthly_g_ac:p_proj_int_on_loan_am:Projected Earnings On SHG Project;monthly_g_ac:proj_int_on_fix_deposit_am:Projected Earnings On Fix Deposit;monthly_g_ac:proj_int_on_other_inv_am:Projected Earnings On Other Investments;"
+                },
+                {
+                    "monthlyReportSheetId": 16,
+                    "reportSheetName": "Losses DETAILED",
+                    "reportSheetTopTitle": "Losses",
+                    "reportSheetBottomTitle": "Value of All Losses",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All the amount Loss for the Group",
+                    "reportSheetFormula": "monthly_g_ac:expenses_am:Expenses;monthly_g_ac:paid_int_on_bank_loan_am:Interest Paid on Bank Loans;monthly_g_ac:returned_int_en_am:Returned Interest on Savings;monthly_g_ac:profit_share_paid_am:Profit Share Paid;monthly_g_ac:divided_paid_am:Divided Paid;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_proj_am:Net Profit Projected;"
+                }
+            ]
+        },
+        {
+            "monthlyReportId": 5,
+            "reportName": "Balance Sheet Proj",
+            "reportDisplayName": "Balance Sheet (Projected)",
+            "reportDesc": "Projected Balance Sheet of the Group",
+            "monthlyReportSheets": [
+                {
+                    "monthlyReportSheetId": 17,
+                    "reportSheetName": "Assets BANK",
+                    "reportSheetTopTitle": "Assets",
+                    "reportSheetBottomTitle": "Value of All Assets",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All Assets of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_loan_am:Outstanding Loan;monthly_g_ac:outstanding_p_loan_am:Outstanding SHG Project Loan;monthly_g_ac:outstanding_fix_deposit_am:Fix Deposit Investments;monthly_g_ac:outstanding_other_inv_am:Other Investments;monthly_g_ac:bank_balance_am:Bank Balance;monthly_g_ac:cash_in_hand_am:Cash In Hand;monthly_g_ac:proj_int_on_loan_am:Projected Interest On Loan;monthly_g_ac:p_proj_int_on_loan_am:Projected Earnings On SHG Project;monthly_g_ac:proj_int_on_fix_deposit_am:Projected Earnings On Fix Deposit;monthly_g_ac:proj_int_on_other_inv_am:Projected Earnings On Other Investments;monthly_g_ac:credit_on_bank_loan_am:Credit Surplus on Bank Loan;"
+                },
+                {
+                    "monthlyReportSheetId": 18,
+                    "reportSheetName": "Liabilities BANK",
+                    "reportSheetTopTitle": "Liabilities",
+                    "reportSheetBottomTitle": "Value of All Liabilities",
+                    "sheetFormat": "BANK",
+                    "reportSheetDesc": "All Liabilities of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_saved_am:Outstanding Saving;monthly_g_ac:outstanding_bank_loan_am:Outstanding Bank Loan;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_proj_am:Net Profit Projected;"
+                },
+                {
+                    "monthlyReportSheetId": 19,
+                    "reportSheetName": "Assets DETAILED",
+                    "reportSheetTopTitle": "Assets",
+                    "reportSheetBottomTitle": "Value of All Assets",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All Assets of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_loan_am:Outstanding Loan;monthly_g_ac:outstanding_p_loan_am:Outstanding SHG Project Loan;monthly_g_ac:outstanding_fix_deposit_am:Fix Deposit Investments;monthly_g_ac:outstanding_other_inv_am:Other Investments;monthly_g_ac:bank_balance_am:Bank Balance;monthly_g_ac:cash_in_hand_am:Cash In Hand;monthly_g_ac:proj_int_on_loan_am:Projected Interest On Loan;monthly_g_ac:p_proj_int_on_loan_am:Projected Earnings On SHG Project;monthly_g_ac:proj_int_on_fix_deposit_am:Projected Earnings On Fix Deposit;monthly_g_ac:proj_int_on_other_inv_am:Projected Earnings On Other Investments;monthly_g_ac:credit_on_bank_loan_am:Credit Surplus on Bank Loan;"
+                },
+                {
+                    "monthlyReportSheetId": 20,
+                    "reportSheetName": "Liabilities DETAILED",
+                    "reportSheetTopTitle": "Liabilities",
+                    "reportSheetBottomTitle": "Value of All Liabilities",
+                    "sheetFormat": "DETAILED",
+                    "reportSheetDesc": "All Liabilities of the Group",
+                    "reportSheetFormula": "monthly_g_ac:outstanding_saved_am:Outstanding Saving;monthly_g_ac:outstanding_bank_loan_am:Outstanding Bank Loan;monthly_g_ac:proj_int_on_bank_loan_am:Projected Interest On Bank Loan;monthly_g_ac:outstanding_prov_int_en_am:Outstanding Provisional Interest on Saving;monthly_g_ac:net_profit_proj_am:Net Profit Projected;"
+                }
+            ]
+        }
+    ]
+}

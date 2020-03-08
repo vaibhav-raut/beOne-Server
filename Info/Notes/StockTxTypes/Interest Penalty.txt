@@ -1,0 +1,90 @@
+Interest Penalty:
+
+p_hub_ac: ******************************************
+				mh_total_collected_am:
+				mh_total_paid_collected_am:
+				mh_current_collected_am:
+				mh_sold_paid_am:
+				mh_sold_pending_am:
+a_mh_total_collected_am:
+				a_mh_total_paid_collected_am:
+a_mh_current_collected_am:
+				lh_total_collected_am:
+				lh_total_paid_collected_am:
+				lh_current_collected_am:
+				lh_sold_paid_am:
+				lh_sold_pending_am:
+a_lh_total_collected_am:
+				a_lh_total_paid_collected_am:
+a_lh_current_collected_am:
+				slh_total_collected_am:
+				slh_total_paid_collected_am:
+				slh_current_collected_am:
+				slh_sold_paid_am:
+				slh_sold_pending_am:
+a_slh_total_collected_am:
+				a_slh_total_paid_collected_am:
+a_slh_current_collected_am:
+				se_total_collected_am:
+				se_total_paid_collected_am:
+				se_current_collected_am:
+				se_sold_paid_am:
+				se_sold_pending_am:
+a_se_total_collected_am:
+				a_se_total_paid_collected_am:
+a_se_current_collected_am:
+				mr_registration_paid_am:
+				mr_registration_pending_am:
+				mr_deposit_paid_am:
+				mr_deposit_pending_am:
+				mr_deposit_return_am:
+				mr_credit_limit_am:
+				mr_sold_paid_am:
+				mr_sold_pending_am:
+mr_paid_interest_penalty_am:
+mr_pending_interest_penalty_am:
+
+
+p_auth_ac: ******************************************
+total_collected_am:
+				total_paid_collected_am:
+current_collected_am:
+				sold_paid_am:
+				sold_pending_am:
+				paid_interest_penalty_am:
+				pending_interest_penalty_am:
+
+p_owner_ac: ******************************************
+				registration_paid_am:
+				registration_pending_am:
+				deposit_paid_am:
+				deposit_pending_am:
+				deposit_return_am:
+				total_collected_am:
+				total_paid_collected_am:
+				current_collected_am:
+				sold_paid_am:
+				sold_pending_am:
+paid_interest_penalty_am:
+pending_interest_penalty_am:
+
+
+mr_visit: ******************************************
+				sold_paid_am:
+				sold_pending_am:
+				closing_outstanding_am:
+paid_interest_penalty_am:
+closing_interest_penalty_am:
+				paid_collected_am:
+				received_collected_am:
+				closing_collected_am:
+				paid_registration_am:
+				closing_registration_am:
+				paid_deposit_am:
+				returned_deposit_am:
+				closing_deposit_am:
+				total_paid_sold_am:
+total_paid_interest_penalty_am:
+				total_paid_collected_am:
+				total_registration_paid_am:
+				total_deposit_paid_am:
