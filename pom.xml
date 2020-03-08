@@ -22,7 +22,7 @@
 		<spring.security.version>3.2.4.RELEASE</spring.security.version>
 		<org.hibernate-version>4.3.4.Final</org.hibernate-version>
 		<axis2.version>1.6.2</axis2.version>
-		<httpcomponents.version>4.3.3</httpcomponents.version>
+		<httpcomponents.version>4.5.12</httpcomponents.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<org.aspectj-version>1.7.4</org.aspectj-version>
 		<org.codehaus.jackson-version>1.9.13</org.codehaus.jackson-version>
