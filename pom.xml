@@ -19,7 +19,7 @@
 		<!-- Dependency Versions -->
 		<java.version>1.7</java.version>
 		<spring.version>4.0.2.RELEASE</spring.version>
-		<spring.security.version>3.2.4.RELEASE</spring.security.version>
+		<spring.security.version>5.5.7</spring.security.version>
 		<org.hibernate-version>4.3.4.Final</org.hibernate-version>
 		<axis2.version>1.6.2</axis2.version>
 		<httpcomponents.version>4.3.3</httpcomponents.version>
